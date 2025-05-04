@@ -1,5 +1,8 @@
 void(__cdecl rl(void(*argp)));
 void*(__cdecl alloc(signed(arg)));
+signed char *(__cdecl cas_xe(signed char(*argp)));
+signed char *(__cdecl cas_r(signed char(*argp)));
+signed char *(__cdecl cas(signed char(*argp)));
 signed char *(__cdecl casca_xe(signed char(*argp)));
 signed char *(__cdecl casca_r(signed char(*argp)));
 signed char *(__cdecl casca(signed char(*argp)));
