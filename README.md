@@ -1,12 +1,16 @@
 # abbey
 
-## Making a library for WSL
+## Please verify the code and use it if you'd like.
 
-### Based on UTF-8
+### Making a library for WSL
 
-### Tips
+#### Remarks
 
-#### Converting CRLF into LF
-e.g., $ sed -b -i 's/\r//g' FILE
-e.g., $ find . -type f -name '*.c' -exec sed -b -i 's/\r//g' {} +;
-e.g., $ find . -name '*.c' -exec sed -b -i 's/\r//g' {} +;
+Based on UTF-8
+
+#### Tips
+
+Converting CRLF into LF  
+e.g., `$ sed -b -i 's/\r//g' FILE`  
+e.g., `$ find . -type f -name '*.c' -exec sed -b -i 's/\r//g' {} +;`  
+e.g., `$ find . -name '*.c' -exec sed -b -i 's/\r//g' {} +;`  
