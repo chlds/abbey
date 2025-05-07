@@ -1,3 +1,15 @@
+signed(__cdecl bub_r(signed(*args),signed(argp)));
+signed(__cdecl bub(signed(*args),signed(argp)));
+signed(__cdecl xcge(signed(*args),signed(*argp)));
+signed(__cdecl ct_ddd(signed(***argp)));
+signed(__cdecl ct_dd(signed(**argp)));
+signed(__cdecl ct_d(signed(*argp)));
+signed(__cdecl ct_www(signed short(***argp)));
+signed(__cdecl ct_ww(signed short(**argp)));
+signed(__cdecl ct_w(signed short(*argp)));
+signed(__cdecl ct_bbb(signed char(***argp)));
+signed(__cdecl ct_bb(signed char(**argp)));
+signed(__cdecl ct_b(signed char(*argp)));
 void(__cdecl rl(void(*argp)));
 void*(__cdecl alloc(signed(arg)));
 signed char *(__cdecl cas_xe(signed char(*argp)));
