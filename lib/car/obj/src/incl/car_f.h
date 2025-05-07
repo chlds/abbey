@@ -1,3 +1,12 @@
+signed char *(__cdecl digt_rr(signed(args),signed char(*argp)));
+signed char *(__cdecl digt_r(signed(args),signed char(*argp)));
+signed char *(__cdecl digt(signed(args),signed char(*argp)));
+signed(__cdecl cmpe_apart(signed char(*args),signed char(*argp)));
+signed(__cdecl cmpe_part(signed char(*args),signed char(*argp)));
+signed(__cdecl cmpe(signed char(*args),signed char(*argp)));
+signed(__cdecl cmp_apart(signed char(*args),signed char(*argp)));
+signed(__cdecl cmp_part(signed char(*args),signed char(*argp)));
+signed(__cdecl cmp(signed char(*args),signed char(*argp)));
 signed(__cdecl bub_r(signed(*args),signed(argp)));
 signed(__cdecl bub(signed(*args),signed(argp)));
 signed(__cdecl xcge(signed(*args),signed(*argp)));
