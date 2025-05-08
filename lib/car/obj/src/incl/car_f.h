@@ -1,3 +1,5 @@
+signed char *(__cdecl cx_r(signed(argq),signed(argt),signed char(*args),signed char(*argp)));
+signed char *(__cdecl cx(signed(argq/*digit*/),signed(argt),signed char(*args/*et*/),signed char(*argp)));
 signed char *(__cdecl catno(signed(args),signed char(*argp)));
 signed char *(__cdecl catho(signed(args),signed char(*argp)));
 signed char *(__cdecl catna(signed char(*args),signed char(*argp)));
