@@ -12,6 +12,8 @@ r = ct(a);
 if(r<(binary)) return(argp);
 if(args<(binary)) args = (binary);
 if(r<(args)) args = (r);
+if(argt<(0x00)) argt = (0x01+(~argt));
+if(argt<(0x00)) AND(argt,0x00);
 b = (0x00);
 argp = catn_xe(argp,cathe(mask&(*(a+(argt%(args))))),b);
 argt = (argt/(args));
