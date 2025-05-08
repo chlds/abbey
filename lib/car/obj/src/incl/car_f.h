@@ -1,3 +1,13 @@
+signed char *(__cdecl catno(signed(args),signed char(*argp)));
+signed char *(__cdecl catho(signed(args),signed char(*argp)));
+signed char *(__cdecl catna(signed char(*args),signed char(*argp)));
+signed char *(__cdecl catha(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cathe_r(signed(args),signed char(*argp)));
+signed char *(__cdecl cathe(signed(arg)));
+signed char *(__cdecl cv(signed(args/*digit*/),signed(argp)));
+signed char *(__cdecl tikt_rr(signed(argt),signed(args),signed char(*argp)));
+signed char *(__cdecl tikt_r(signed(args),signed(argp)));
+signed char *(__cdecl tikt(signed(args),signed(argp/*radix*/)));
 signed char *(__cdecl digt_rr(signed(args),signed char(*argp)));
 signed char *(__cdecl digt_r(signed(args),signed char(*argp)));
 signed char *(__cdecl digt(signed(args),signed char(*argp)));
