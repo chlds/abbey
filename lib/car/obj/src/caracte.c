@@ -2,7 +2,7 @@
 # include "./incl/config.h"
 
 signed(__cdecl caracte(signed(arg))) {
-auto signed seq = (0x80);
-if(!(seq^(arg))) AND(arg,0x00);
+auto signed b1 = (0x80);
+if(!(b1^(arg))) AND(arg,0x00);
 return(arg);
 }

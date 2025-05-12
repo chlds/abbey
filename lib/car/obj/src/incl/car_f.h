@@ -14,6 +14,7 @@ signed char *(__cdecl tikt(signed(args),signed(argp/*radix*/)));
 signed char *(__cdecl digt_rr(signed(args),signed char(*argp)));
 signed char *(__cdecl digt_r(signed(args),signed char(*argp)));
 signed char *(__cdecl digt(signed(args),signed char(*argp)));
+signed(__cdecl ra(signed char(*args),signed(argp)));
 signed(__cdecl cmpe_apart(signed char(*args),signed char(*argp)));
 signed(__cdecl cmpe_part(signed char(*args),signed char(*argp)));
 signed(__cdecl cmpe(signed char(*args),signed char(*argp)));

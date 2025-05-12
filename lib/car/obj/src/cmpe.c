@@ -3,12 +3,12 @@
 
 signed(__cdecl cmpe(signed char(*args),signed char(*argp))) {
 auto signed r;
-auto signed mask = (0xFF);
+auto signed m = (0xFF);
 AND(r,0x00);
 if(!argp) return(r);
 if(!args) return(r);
-r = (signed)(mask&(*args));
-if(r^(signed)(mask&(*argp))) return(r+(0x01+(~(signed)(mask&(*argp)))));
+r = (signed)(m&(*args));
+if(r^(signed)(m&(*argp))) return(r+(0x01+(~(signed)(m&(*argp)))));
 if(!r) return(r);
 return(cmpe(++args,++argp));
 }

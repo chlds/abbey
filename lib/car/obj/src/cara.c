@@ -3,9 +3,9 @@
 
 signed(__cdecl cara(signed char(*argp))) {
 auto signed r;
-auto signed mask = (0xFF);
+auto signed m = (0xFF);
 AND(r,0x00);
 if(!argp) return(r);
-r = (signed)(mask&(*argp));
+r = (signed)(m&(*argp));
 return(r);
 }
