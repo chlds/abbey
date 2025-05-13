@@ -1,7 +1,13 @@
+/* Synopsis
+
+Convert
+*/
+
+
 # define CAR_H
 # include "./incl/config.h"
 
-signed char *(__cdecl tikt(signed(args),signed(argp/*radix*/))) {
+signed char *(__cdecl tikt(signed(args),signed(argp))) {
 auto signed char *b;
 auto signed char a[] = ("-");
 b = (0x00);
