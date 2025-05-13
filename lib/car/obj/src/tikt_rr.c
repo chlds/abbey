@@ -12,7 +12,7 @@ if(!(0x01^(args))) return(argp);
 if(argt<(0x00)) argt = (0x01+(~argt));
 if(argt<(0x00)) AND(argt,0x00);
 b = (0x00);
-argp = catn_xe(argp,cathe(m&(*(a+(argt%(args))))),b);
+argp = catn_xe(argp,catt(m&(*(a+(argt%(args))))),b);
 argt = (argt/(args));
 if(!argt) return(argp);
 return(tikt_rr(argt,args,argp));

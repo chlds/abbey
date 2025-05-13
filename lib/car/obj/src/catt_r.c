@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed char *(__cdecl cathe_r(signed(args),signed char(*argp))) {
+signed char *(__cdecl catt_r(signed(args),signed char(*argp))) {
 auto signed char *b;
 auto signed m = (0xFF);
 b = (argp);
