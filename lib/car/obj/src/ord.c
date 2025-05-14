@@ -1,9 +1,3 @@
-/* Synopsis
-
-The ordinal number
-*/
-
-
 # define CAR_H
 # include "./incl/config.h"
 
