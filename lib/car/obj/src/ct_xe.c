@@ -3,7 +3,7 @@
 
 signed(__cdecl ct_xe(signed char(*argp))) {
 auto signed r;
-r = caracte(caract(cara(argp)));
+r = lt(argp);
 if(!r) return(r);
 argp = (r+(argp));
 return(0x01+(ct_xe(argp)));

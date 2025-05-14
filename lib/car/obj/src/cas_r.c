@@ -6,7 +6,7 @@ auto signed char *b;
 if(!argp) return(argp);
 b = (0x00);
 argp = cath(argp,b);
-b = (argp+(caracte(caract(cara(argp)))));
+b = (argp+(lt(argp)));
 bury(b);
 b = (0x00);
 b = cath_xe(argp,b);

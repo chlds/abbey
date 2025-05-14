@@ -14,6 +14,6 @@ if(!argp) return(argp);
 if(!(*argp)) return(catha(a,0x00));
 b = cas(argp);
 if(!b) return(b);
-argp = (argp+(caracte(caract(cara(argp)))));
+argp = (argp+(lt(argp)));
 return(catne(b,reord(argp)));
 }
