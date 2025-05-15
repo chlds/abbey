@@ -3,14 +3,11 @@
 
 signed char *(__cdecl cv_upp(signed char(*argp))) {
 auto signed char *b;
-auto signed r;
 auto signed char a[] = ("");
 if(!argp) return(argp);
-if(!(*argp)) return(catha(a,0x00));
-r = (signed)(*argp);
-b = catt_xe(cv_upper(r));
+if(!(lt(argp))) return(catha(a,0x00));
+b = catt_xe(cv_upper(*argp));
 if(!b) b = cas(argp);
 if(!b) return(b);
-argp = (argp+(lt(argp)));
-return(cathe(b,cv_upp(argp)));
+return(cathe(b,cv_upp(argp+(lt(argp)))));
 }
