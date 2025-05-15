@@ -1,17 +1,17 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed(__cdecl cnv_rr(signed char(*args),signed(argp))) {
+signed(__cdecl cnv_rr(signed(args),signed char(*argp))) {
 auto signed r;
 auto signed m = (0xFF);
 auto signed char a[] = ("0123456789ABCDEF");
 AND(r,0x00);
-if(!args) return(r);
-if(!(*args)) return(r);
-argp = ra(a,argp);
-if(!(0x01^(argp))) return(r);
-r = (signed)(m&(*args));
+if(!argp) return(r);
+if(!(*argp)) return(r);
+args = ra(a,args);
+if(!(0x01^(args))) return(r);
+r = (signed)(m&(*argp));
 r = ord(r,a);
-if(!(r<(argp))) return(cnv_rr(++args,argp));
-return(r+(argp*(cnv_rr(++args,argp))));
+if(!(r<(args))) return(cnv_rr(args,++argp));
+return(r+(args*(cnv_rr(args,++argp))));
 }

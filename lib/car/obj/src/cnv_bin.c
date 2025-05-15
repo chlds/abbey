@@ -2,5 +2,5 @@
 # include "./incl/config.h"
 
 signed(__cdecl cnv_bin(signed char(*argp))) {
-return(cnv(argp,0x02));
+return(cnv(0x02,argp));
 }
