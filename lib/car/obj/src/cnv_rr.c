@@ -11,7 +11,7 @@ if(!(*args)) return(r);
 argp = ra(a,argp);
 if(!(0x01^(argp))) return(r);
 r = (signed)(m&(*args));
-r = ord(a,r);
+r = ord(r,a);
 if(!(r<(argp))) return(cnv_rr(++args,argp));
 return(r+(argp*(cnv_rr(++args,argp))));
 }

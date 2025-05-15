@@ -1,12 +1,10 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed(__cdecl ord(signed char(*args),signed(argp))) {
-auto signed r;
+signed(__cdecl ord(signed(args),signed char(*argp))) {
 auto signed m = (0xFF);
-if(!args) return(0x00);
-if(!(*args)) return(0x00);
-r = (m&(*args));
-if(!(r^(argp))) return(0x00);
-return(0x01+(ord(++args,argp)));
+if(!argp) return(0x00);
+if(!(*argp)) return(0x00);
+if(!(args^(m&(*argp)))) return(0x00);
+return(0x01+(ord(args,++argp)));
 }
