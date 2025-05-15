@@ -8,7 +8,7 @@ auto signed char a[] = ("0123456789ABCDEF");
 AND(r,0x00);
 if(!argp) return(r);
 if(!(*argp)) return(r);
-args = ra(a,args);
+args = ra(args,a);
 if(!(0x01^(args))) return(r);
 r = (signed)(m&(*argp));
 r = ord(r,a);
