@@ -1,9 +1,9 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed(__cdecl bub(signed(*args),signed(argp))) {
+signed(__cdecl bub(signed(args),signed(*argp))) {
 auto signed r;
 r = bub_r(args,argp);
-if(r^(--argp)) return(0x00);
+if(r^(--args)) return(0x00);
 return(0x01+(bub(args,argp)));
 }
