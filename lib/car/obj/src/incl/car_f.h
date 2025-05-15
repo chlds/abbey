@@ -1,5 +1,7 @@
-signed(__cdecl cv_upp(signed(arg)));
-signed(__cdecl cv_low(signed(arg)));
+signed char *(__cdecl cv_upp(signed char(*argp)));
+signed char *(__cdecl cv_low(signed char(*argp)));
+signed(__cdecl cv_upper(signed(arg)));
+signed(__cdecl cv_lower(signed(arg)));
 signed(__cdecl cnv_hex(signed char(*argp)));
 signed(__cdecl cnv_dec(signed char(*argp)));
 signed(__cdecl cnv_oct(signed char(*argp)));
@@ -27,6 +29,7 @@ signed char *(__cdecl catna(signed char(*args),signed char(*argp)));
 signed char *(__cdecl catha(signed char(*args),signed char(*argp)));
 signed char *(__cdecl catne(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cathe(signed char(*args),signed char(*argp)));
+signed char *(__cdecl catt_xe(signed(arg)));
 signed char *(__cdecl catt_r(signed(args),signed char(*argp)));
 signed char *(__cdecl catt(signed(arg)));
 signed char *(__cdecl cv_dec(signed(args/*digit*/),signed(argp)));

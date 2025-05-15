@@ -1,11 +1,16 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed(__cdecl cv_upp(signed(arg))) {
-auto signed char u[] = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
-auto signed char l[] = ("abcdefghijklmnopqrstuvwxyz");
-arg = ord(arg,l);
-if(!(arg<(ct(l)))) return(0x00);
-arg = (signed)(*(arg+(u)));
-return(arg);
+signed char *(__cdecl cv_upp(signed char(*argp))) {
+auto signed char *b;
+auto signed r;
+auto signed char a[] = ("");
+if(!argp) return(argp);
+if(!(*argp)) return(catha(a,0x00));
+r = (signed)(*argp);
+b = catt_xe(cv_upper(r));
+if(!b) b = cas(argp);
+if(!b) return(b);
+argp = (argp+(lt(argp)));
+return(cathe(b,cv_upp(argp)));
 }
