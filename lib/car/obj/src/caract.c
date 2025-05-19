@@ -2,7 +2,6 @@
 # include "./incl/config.h"
 
 signed(__cdecl caract(signed(arg))) {
-auto signed m = (0xFF);
 auto signed b1 = (0x80);
 auto signed b2 = (0xC0);
 auto signed b3 = (0xE0);
@@ -10,7 +9,7 @@ auto signed b4 = (0xF0);
 // auto signed b5 = (0xF8);
 // auto signed b6 = (0xFC);
 // auto signed b7 = (0xFE);
-AND(arg,m);
+AND(arg,mas());
 if(!arg) return(arg);
 if(!(b1&(arg))) return(0x01);
 // if(!(b7^(b7&(arg)))) return(0x07);

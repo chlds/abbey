@@ -3,14 +3,13 @@
 
 signed(__cdecl cnv_rr(signed(args),signed char(*argp))) {
 auto signed r;
-auto signed m = (0xFF);
 auto signed char a[] = ("0123456789ABCDEF");
 AND(r,0x00);
 if(!argp) return(r);
 if(!(*argp)) return(r);
 args = ra(args,a);
 if(!(0x01^(args))) return(r);
-r = (signed)(m&(*argp));
+r = cara(argp);
 r = ord(r,a);
 if(!(r<(args))) return(cnv_rr(args,++argp));
 return(r+(args*(cnv_rr(args,++argp))));

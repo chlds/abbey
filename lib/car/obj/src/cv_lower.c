@@ -6,6 +6,6 @@ auto signed char u[] = ("ABCDEFGHIJKLMNOPQRSTUVWXYZ");
 auto signed char l[] = ("abcdefghijklmnopqrstuvwxyz");
 arg = ord(arg,u);
 if(!(arg<(ct(u)))) return(0x00);
-arg = (signed)(*(arg+(l)));
+arg = cara(arg+(l));
 return(arg);
 }
