@@ -3,7 +3,8 @@
 
 signed char *(__cdecl catn_xe_r(signed char(**argp))) {
 auto signed char *b;
-b = (0x00);
-if(!argp) return(b);
-return(catn_xe_rr(argp,b));
+if(!argp) return(0x00);
+b = (*argp);
+if(!b) return(b);
+return(cata_xe(b,catn_xe_r(++argp)));
 }
