@@ -12,6 +12,8 @@ args = ra(args,a);
 if(!(0x01^(args))) return(r);
 r = cnv_gmkib_xe(args,argp);
 if(r) return(r*(cnv_xe_rr(args,(l+(argp)))));
+r = cnv_gmkb(args,argp);
+if(r) return(r*(cnv_xe_rr(args,++argp)));
 r = cara(argp);
 r = ord(r,a);
 if(!(r<(args))) return(cnv_xe_rr(args,++argp));
