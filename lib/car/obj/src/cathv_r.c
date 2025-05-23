@@ -3,7 +3,7 @@
 
 signed char **(__cdecl cathv_r(signed char(**argp))) {
 auto signed r;
-r = ct_bb(argp);
+r = cnt_b(argp);
 r++;
 return(cathv_rr(argp,alloc(r*(sizeof(*argp)))));
 }
