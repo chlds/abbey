@@ -6,8 +6,7 @@ auto signed char *b;
 auto signed r;
 b = reord(argp);
 r = lt(b);
-bury(b);
-rl(b);
+rlse(b);
 b = (0x00);
 return(r);
 }

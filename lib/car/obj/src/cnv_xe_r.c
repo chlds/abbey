@@ -8,8 +8,7 @@ AND(r,0x00);
 b = reord(argp);
 if(!b) return(r);
 r = cnv_xe_rr(args,b);
-bury(b);
-rl(b);
+rlse(b);
 b = (0x00);
 return(r);
 }

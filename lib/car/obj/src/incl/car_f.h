@@ -77,6 +77,7 @@ signed(__cdecl ct_w(signed short(*argp)));
 signed(__cdecl ct_bbb(signed char(***argp)));
 signed(__cdecl ct_bb(signed char(**argp)));
 signed(__cdecl ct_b(signed char(*argp)));
+signed(__cdecl rlse(signed char(*argp)));
 signed(__cdecl rel_w_r(signed(**argp)));
 signed(__cdecl rel_w(signed(**argp)));
 signed(__cdecl rl_w_r(signed char(**argp)));

@@ -4,8 +4,7 @@
 signed char *(__cdecl cata_xe(signed char(*args),signed char(*argp))) {
 auto signed char *b;
 b = cata_xe_r(args,argp);
-bury(args);
-rl(args);
+rlse(args);
 args = (0x00);
 return(b);
 }
