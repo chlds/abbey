@@ -1,11 +1,11 @@
 # define CAR_H
-# define STDLIB_H
 # include "./incl/config.h"
 
-signed(__cdecl rel_w(signed(**argp))) {
+signed(__cdecl rlse_d(signed(**argp))) {
 auto signed r;
 if(!argp) return(0x00);
-r = rel_w_r(argp);
+r = rlse_d_r(argp);
 rl(argp);
+argp = (0x00);
 return(r);
 }
