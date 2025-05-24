@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed**(__cdecl cathv_d_rr(signed(argt),signed(*args),signed(**argp))) {
+signed**(__cdecl cath_d_rr(signed(argt),signed(*args),signed(**argp))) {
 auto signed r;
 if(!argp) return(argp);
 *argp = (0x00);
@@ -12,5 +12,5 @@ if(!(*argp)) return(argp);
 **argp = (*args);
 r = (sizeof(args));
 args = (args+(r/(sizeof(*args))));
-return(dec_d(cathv_d_rr(--argt,args,++argp)));
+return(dec_d(cath_d_rr(--argt,args,++argp)));
 }

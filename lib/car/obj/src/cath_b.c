@@ -2,7 +2,7 @@
 # define STDARG_H
 # include "./incl/config.h"
 
-signed char **(__cdecl cathv(signed char *argp,...)) {
+signed char **(__cdecl cath_b(signed char *argp,...)) {
 if(!argp) return(0x00);
-return(cathv_r(&argp));
+return(cath_b_r(&argp));
 }
