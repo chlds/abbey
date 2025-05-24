@@ -12,7 +12,5 @@ if(!(*argp)) return(argp);
 **argp = (*args);
 r = (sizeof(args));
 args = (args+(r/(sizeof(*args))));
-AND(r,0x00);
-NOT(r);
-return(r+(cathv_d_rr(--argt,args,++argp)));
+return(dec_d(cathv_d_rr(--argt,args,++argp)));
 }

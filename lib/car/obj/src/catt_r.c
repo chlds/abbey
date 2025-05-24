@@ -5,7 +5,7 @@ signed char *(__cdecl catt_r(signed(args),signed char(*argp))) {
 auto signed char *b;
 b = (argp);
 if(!b) return(b);
-*b = (signed char)(args&(mas()));
+*b = (signed char)(args&(mas(sizeof(char))));
 b++;
 *b = (0x00);
 b = (0x00);

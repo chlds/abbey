@@ -4,6 +4,6 @@
 signed(__cdecl cara(signed char(*argp))) {
 auto signed r;
 if(!argp) return(0x00);
-r = mas();
+r = mas(sizeof(char));
 return(r&(*argp));
 }

@@ -8,7 +8,5 @@ if(!argp) return(argp);
 if(!args) return(argp);
 *argp = cathy(*args);
 if(!(*argp)) return(argp);
-AND(r,0x00);
-NOT(r);
-return(r+(cathv_rr(++args,++argp)));
+return(dec_b(cathv_rr(++args,++argp)));
 }

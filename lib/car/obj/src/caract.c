@@ -9,7 +9,7 @@ auto signed b4 = (0xF0);
 // auto signed b5 = (0xF8);
 // auto signed b6 = (0xFC);
 // auto signed b7 = (0xFE);
-AND(arg,mas());
+AND(arg,mas(sizeof(char)));
 if(!arg) return(arg);
 if(!(b1&(arg))) return(0x01);
 // if(!(b7^(b7&(arg)))) return(0x07);
