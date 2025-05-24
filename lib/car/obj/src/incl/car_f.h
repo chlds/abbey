@@ -124,6 +124,7 @@ signed(__cdecl caracte(signed(arg)));
 signed(__cdecl caract(signed(arg)));
 signed(__cdecl cara(signed char(*argp)));
 signed(__cdecl mas(void));
+signed(__cdecl togg(signed(arg)));
 signed(__cdecl r_pow(signed(args),signed(argp)));
 signed(__cdecl bpb_r(signed char(*argp)));
 signed(__cdecl bpb(void));
