@@ -8,7 +8,7 @@ auto signed char a[] = ("0123456789ABCDEF");
 AND(r,0x00);
 if(!argp) return(r);
 if(!(*argp)) return(r);
-args = ra(args,a);
+args = ra(a,args);
 if(!(0x01^(args))) return(r);
 r = cnv_gmkib_xe(args,argp);
 if(r) return(r*(cnv_xe_rr(args,(l+(argp)))));

@@ -6,7 +6,7 @@ auto signed char *b;
 auto signed r;
 auto signed char a[] = ("0123456789ABCDEF");
 b = (0x00);
-argp = ra(argp,a);
+argp = ra(a,argp);
 if(!(0x01^(argp))) return(b);
 if(args<(0x00)) args = (0x01+(~args));
 if(args<(0x00)) AND(args,0x00);

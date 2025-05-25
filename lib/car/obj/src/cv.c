@@ -2,6 +2,6 @@
 # include "./incl/config.h"
 
 signed char *(__cdecl cv(signed(args/*digit*/),signed(argp))) {
-auto signed radix = (0x0A);
-return(digt(args,tikt(argp,radix)));
+auto signed char a[] = ("0123456789");
+return(digt(args,tikt(argp,ra(a,ct(a)))));
 }
