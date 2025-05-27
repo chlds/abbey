@@ -3,13 +3,11 @@
 
 signed char *(__cdecl digt(signed(args),signed char(*argp))) {
 auto signed char *b;
-auto signed r;
 auto signed char a[] = ("-");
 if(!argp) return(argp);
-AND(r,0x00);
-if(!(cmp_part(a,argp))) INC(r);
-argp = digt_r(args,argp);
-b = (0x00);
-if(r) argp = catn_xe(argp,cath(a,b),b);
-return(argp);
+b = cathy(argp);
+if(!(cmpe_part(a,argp))) b = casca_xe(b);
+b = digt_r(args,b);
+if(!(cmpe_part(a,argp))) b = catha(a,b);
+return(b);
 }

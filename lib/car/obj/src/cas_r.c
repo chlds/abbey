@@ -3,13 +3,11 @@
 
 signed char *(__cdecl cas_r(signed char(*argp))) {
 auto signed char *b;
-if(!argp) return(argp);
-b = (0x00);
-argp = cath(argp,b);
+if(!(lt(argp))) return(0x00);
+argp = cathy(argp);
 b = (argp+(lt(argp)));
 bury(b);
-b = (0x00);
-b = cath_xe(argp,b);
+b = cathe(argp,0x00);
 argp = (0x00);
 return(b);
 }

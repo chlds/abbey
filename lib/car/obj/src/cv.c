@@ -3,5 +3,5 @@
 
 signed char *(__cdecl cv(signed(args/*digit*/),signed(argp))) {
 auto signed char a[] = ("0123456789");
-return(digt(args,tikt(argp,ra(a,ct(a)))));
+return(digt_xe(args,tikt(argp,ra(a,ct(a)))));
 }

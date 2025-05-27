@@ -1,3 +1,5 @@
+signed(__cdecl any_ofalpha_r(signed char(*argp)));
+signed(__cdecl any_ofalpha(signed char(*argp)));
 signed char *(__cdecl cv_upp(signed char(*argp)));
 signed char *(__cdecl cv_low(signed char(*argp)));
 signed(__cdecl cv_upper(signed(arg)));
@@ -74,7 +76,8 @@ signed char *(__cdecl cv(signed(args/*digit*/),signed(argp)));
 signed char *(__cdecl tikt_rr(signed(args),signed(argp)));
 signed char *(__cdecl tikt_r(signed(args),signed(argp)));
 signed char *(__cdecl tikt(signed(args),signed(argp)));
-signed char *(__cdecl digt_rr(signed(args),signed char(*argp)));
+signed char *(__cdecl digt_xe(signed(args),signed char(*argp)));
+signed char *(__cdecl digt_rr(signed(arg)));
 signed char *(__cdecl digt_r(signed(args),signed char(*argp)));
 signed char *(__cdecl digt(signed(args),signed char(*argp)));
 signed(__cdecl ra(signed char(*args),signed(argp)));

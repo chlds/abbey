@@ -3,10 +3,9 @@
 
 signed char *(__cdecl casca_r(signed char(*argp))) {
 auto signed char *b;
-if(!argp) return(argp);
-b = (0x00);
+if(!(lt(argp))) return(0x00);
 argp = (argp+(lt(argp)));
-b = cath(argp,b);
+b = cathy(argp);
 argp = (0x00);
 return(b);
 }
