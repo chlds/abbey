@@ -1,5 +1,10 @@
+signed(__cdecl any_ofalphanum_r(signed char(*args),signed(argp)));
+signed(__cdecl any_ofalphanum(signed char(*argp)));
 signed(__cdecl any_ofalpha_r(signed char(*argp)));
 signed(__cdecl any_ofalpha(signed char(*argp)));
+signed(__cdecl any_ofnum_r(signed char(*argp)));
+signed(__cdecl any_ofnum(signed char(*argp)));
+signed(__cdecl none(signed(arg)));
 signed char *(__cdecl cv_upp(signed char(*argp)));
 signed char *(__cdecl cv_low(signed char(*argp)));
 signed(__cdecl cv_upper(signed(arg)));
