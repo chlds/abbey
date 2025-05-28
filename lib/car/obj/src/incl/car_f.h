@@ -1,3 +1,6 @@
+signed(__cdecl cue_noalphanum(signed char(*argp)));
+signed(__cdecl cue_noalpha(signed char(*argp)));
+signed(__cdecl cue_nonum(signed char(*argp)));
 signed(__cdecl any_ofnoalphanum_r(signed char(*argp)));
 signed(__cdecl any_ofnoalphanum(signed char(*argp)));
 signed(__cdecl any_ofnoalpha_r(signed char(*argp)));
