@@ -1,5 +1,13 @@
+signed char *(__cdecl cath_alphanum_xe(signed char(*argp)));
+signed char *(__cdecl cath_alphanum(signed char(*argp)));
+signed char *(__cdecl cath_alpha_xe(signed char(*argp)));
+signed char *(__cdecl cath_alpha(signed char(*argp)));
 signed char *(__cdecl cath_num_xe(signed char(*argp)));
 signed char *(__cdecl cath_num(signed char(*argp)));
+signed char *(__cdecl cat_alphanum_xe(signed char(*argp)));
+signed char *(__cdecl cat_alphanum(signed char(*argp)));
+signed char *(__cdecl cat_alpha_xe(signed char(*argp)));
+signed char *(__cdecl cat_alpha(signed char(*argp)));
 signed char *(__cdecl cat_num_xe(signed char(*argp)));
 signed char *(__cdecl cat_num(signed char(*argp)));
 signed(__cdecl cue_noalphanum(signed char(*argp)));
