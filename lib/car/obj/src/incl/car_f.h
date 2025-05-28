@@ -1,3 +1,6 @@
+signed(__cdecl cue_alphanum(signed char(*argp)));
+signed(__cdecl cue_alpha(signed char(*argp)));
+signed(__cdecl cue_num(signed char(*argp)));
 signed(__cdecl any_ofalphanum_r(signed char(*args),signed(argp)));
 signed(__cdecl any_ofalphanum(signed char(*argp)));
 signed(__cdecl any_ofalpha_r(signed char(*argp)));
