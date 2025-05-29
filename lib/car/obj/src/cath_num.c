@@ -5,7 +5,7 @@ signed char *(__cdecl cath_num(signed char(*argp))) {
 auto signed char *b;
 auto signed r;
 b = cat_num(argp);
-r = cue_nonum(b);
+r = any_ofnonum(b);
 if(none(r)) return(b);
 bury(r+(b));
 return(cathy_xe(b));
