@@ -1,3 +1,9 @@
+/* Synopsis
+
+Cue to editing text
+*/
+
+
 # define CAR_H
 # include "./incl/config.h"
 

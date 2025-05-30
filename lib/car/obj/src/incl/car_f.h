@@ -1,3 +1,5 @@
+signed(__cdecl cnt_ev(signed char(*argp)));
+signed(__cdecl cnt_et(signed char(*argp)));
 signed char *(__cdecl cuev_b_xe(signed char(*argp)));
 signed char *(__cdecl cuet_b_xe(signed char(*argp)));
 signed char *(__cdecl cuev_b(signed char(*argp)));
@@ -119,6 +121,9 @@ signed char *(__cdecl catna(signed char(*args),signed char(*argp)));
 signed char *(__cdecl catha(signed char(*args),signed char(*argp)));
 signed char *(__cdecl catne(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cathe(signed char(*args),signed char(*argp)));
+signed char **(__cdecl catt_b_xe(signed char(*argp)));
+signed char **(__cdecl catt_b_r(signed char(*args),signed char(**argp)));
+signed char **(__cdecl catt_b(signed char(*argp)));
 signed char *(__cdecl catt_xe(signed(arg)));
 signed char *(__cdecl catt_r(signed(args),signed char(*argp)));
 signed char *(__cdecl catt(signed(arg)));

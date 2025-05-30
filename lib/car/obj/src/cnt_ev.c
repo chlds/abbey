@@ -1,0 +1,9 @@
+# define CAR_H
+# include "./incl/config.h"
+
+signed(__cdecl cnt_ev(signed char(*argp))) {
+auto signed r;
+r = cuev_xe(argp);
+if(!r) return(r);
+return(0x01+(cnt_ev(argp+(r))));
+}

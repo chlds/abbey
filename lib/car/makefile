@@ -1,6 +1,6 @@
 # Making libcar.so
 
-MSG = "Building dynamic library libcar.so"
+MSG = "< Building dynamic library libcar.so"
 
 L = car
 LBY = lib$(L).so
