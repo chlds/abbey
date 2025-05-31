@@ -220,7 +220,7 @@ signed(__cdecl cnt(signed char *argp,...));
 signed(__cdecl ct_xe(signed char(*argp)));
 signed(__cdecl ct(signed char(*argp)));
 signed(__cdecl bury(signed char(*argp)));
-signed(__cdecl ltr(signed char(*argp)));
+signed(__cdecl lt_xe(signed char(*argp)));
 signed(__cdecl lt(signed char(*argp)));
 signed(__cdecl caracte(signed(arg)));
 signed(__cdecl caract(signed(arg)));
