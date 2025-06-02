@@ -1,3 +1,5 @@
+signed char *(__cdecl rmlbyl_xe(signed char(*argp)));
+signed char *(__cdecl rmlbyl(signed char(*argp)));
 signed char *(__cdecl rmwrd_xe(signed char(*argp)));
 signed char *(__cdecl rmwrd_r(signed char(*argp)));
 signed char *(__cdecl rmwrd(signed char(*argp)));
@@ -18,13 +20,12 @@ signed char *(__cdecl rmlt_r(signed char(*argp)));
 signed char *(__cdecl rmlt(signed char(*argp)));
 signed char *(__cdecl dele(signed char(*argp)));
 signed char *(__cdecl dele_xe(signed char(*argp)));
+//
 signed char *(__cdecl rm_by_wrd_rrr(signed char(*argp)));
 signed char *(__cdecl rm_by_wrd_rr(signed char(*argp)));
 signed char *(__cdecl rm_by_wrd_r(signed char(*argp)));
 signed char *(__cdecl rm_by_wrd(signed char(*argp)));
 signed char *(__cdecl rm_by_wrd_xe(signed char(*argp)));
-signed char *(__cdecl rm_by_lt(signed char(*argp)));
-signed char *(__cdecl rm_by_lt_xe(signed char(*argp)));
 signed char *(__cdecl rm_wrd_xe(signed char(*argp)));
 signed char *(__cdecl rm_wrd_r(signed char(*argp)));
 signed char *(__cdecl rm_wrd(signed char(*argp)));
@@ -43,6 +44,7 @@ signed char *(__cdecl rm_mb(signed char(*argp)));
 signed char *(__cdecl rm_lt_xe(signed char(*argp)));
 signed char *(__cdecl rm_lt_r(signed char(*argp)));
 signed char *(__cdecl rm_lt(signed char(*argp)));
+//
 signed(__cdecl endln_ht(signed char(*argp)));
 signed(__cdecl endln_lf(signed char(*argp)));
 signed(__cdecl endln_cr(signed char(*argp)));
@@ -51,8 +53,9 @@ signed(__cdecl endln_symb(signed char(*argp)));
 signed(__cdecl endln_spa(signed char(*argp)));
 signed(__cdecl endln_mb(signed char(*argp)));
 signed(__cdecl endln_lt(signed char(*argp)));
-signed(__cdecl cnt_ev(signed char(*argp)));
-signed(__cdecl cnt_et(signed char(*argp)));
+//
+signed(__cdecl cntev(signed char(*argp)));
+signed(__cdecl cntet(signed char(*argp)));
 signed char **(__cdecl cathev_r(signed char(*argp)));
 signed char **(__cdecl cathev(signed char(*argp)));
 signed char **(__cdecl cathev_xe(signed char(*argp)));
