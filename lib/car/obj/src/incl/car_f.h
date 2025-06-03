@@ -190,6 +190,8 @@ signed char *(__cdecl catna(signed char(*args),signed char(*argp)));
 signed char *(__cdecl catha(signed char(*args),signed char(*argp)));
 signed char *(__cdecl catne(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cathe(signed char(*args),signed char(*argp)));
+signed**(__cdecl cards_r(signed(*args),signed(argp)));
+signed**(__cdecl cards(signed arg,...));
 signed **(__cdecl cardi_xe(signed(*argp)));
 signed **(__cdecl cardi_r(signed(*args),signed(**argp)));
 signed **(__cdecl cardi(signed(*argp)));
