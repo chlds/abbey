@@ -26,12 +26,6 @@ signed char *(__cdecl rmlt(signed char(*argp)));
 signed char *(__cdecl dele(signed char(*argp)));
 signed char *(__cdecl dele_xe(signed char(*argp)));
 //
-signed char *(__cdecl rm_by_wrd_xe(signed char(*argp)));
-signed char *(__cdecl rm_by_wrd_rrr(signed char(*argp)));
-signed char *(__cdecl rm_by_wrd_rr(signed char(*argp)));
-signed char *(__cdecl rm_by_wrd_r(signed char(*argp)));
-signed char *(__cdecl rm_by_wrd(signed char(*argp)));
-//
 signed char *(__cdecl rm_wrd_xe(signed char(*argp)));
 signed char *(__cdecl rm_wrd_r(signed char(*argp)));
 signed char *(__cdecl rm_wrd(signed char(*argp)));
