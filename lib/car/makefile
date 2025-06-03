@@ -43,6 +43,10 @@ _asm:
 _clean_asm:
 	rm $(ASM_DIR)*.s
 
+.PHONY: _clean_obj
+_clean_obj:
+	rm $(OBJ_DIR)*.o
+
 .PHONY: _clean_all
 _clean_all:
 	rm $(TARGET)
