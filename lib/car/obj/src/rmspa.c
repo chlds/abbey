@@ -8,5 +8,5 @@ Remove all whitespace at the end of a line
 # include "./incl/config.h"
 
 signed char *(__cdecl rmspa(signed char(*argp))) {
-return(reord_xe(rmspa_r(reord(argp))));
+return(rmspa_r(cathy(argp)));
 }

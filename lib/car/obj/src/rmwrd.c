@@ -8,5 +8,5 @@ Remove one character block at the end of a line
 # include "./incl/config.h"
 
 signed char *(__cdecl rmwrd(signed char(*argp))) {
-return(reord_xe(rmwrd_r(reord(argp))));
+return(rmwrd_r(cathy(argp)));
 }

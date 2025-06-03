@@ -8,5 +8,5 @@ Remove multi-byte characters at the end of a line
 # include "./incl/config.h"
 
 signed char *(__cdecl rmmb(signed char(*argp))) {
-return(reord_xe(rmmb_r(reord(argp))));
+return(rmmb_r(cathy(argp)));
 }

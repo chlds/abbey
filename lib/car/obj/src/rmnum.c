@@ -8,5 +8,5 @@ Remove numbers at the end of a line
 # include "./incl/config.h"
 
 signed char *(__cdecl rmnum(signed char(*argp))) {
-return(reord_xe(rmnum_r(reord(argp))));
+return(rmnum_r(cathy(argp)));
 }
