@@ -7,7 +7,7 @@ if(!argp) return(argp);
 *argp = (0x00);
 if(!args) return(argp);
 if(!(0x00<(argt))) return(argp);
-*argp = (signed*)(alloc(0x01*(sizeof(*argp))));
+*argp = (signed*)(alloc(0x01*(sizeof(*args))));
 if(!(*argp)) return(argp);
 **argp = (*args);
 r = (sizeof(args));
