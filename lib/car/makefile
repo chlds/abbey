@@ -1,56 +1,54 @@
-# Making libcar.so
-
-MSG = "< Building dynamic library libcar.so"
+# Making libcar.a
 
 L = car
-LBY = lib$(L).so
-
+LBY = lib$(L).a
 LBY_DIR = ./
 OBJ_DIR = ./obj/
 SRC_DIR = ./obj/src/
-ASM_DIR = ./obj/src/
 HDR_DIR = ./obj/src/incl/
-HDRS = $(HDR_DIR)*.h
-ASMS = $(ASM_DIR)*.s
-SRCS = $(SRC_DIR)*.c
-OBJS = $(OBJ_DIR)*.o
+ASM_DIR = ./obj/src/incl/asm/
+ASMS = $(SRCS:$(SRC_DIR)%.c=$(ASM_DIR)%.s)
+HDRS = $(wildcard $(HDR_DIR)*.h)
+SRCS = $(wildcard $(SRC_DIR)*.c)
+OBJS = $(SRCS:$(SRC_DIR)%.c=$(OBJ_DIR)%.o)
 TARGET = $(LBY_DIR)$(LBY)
-
-LB = gcc
-LFLAG = -shared -o
 AS = gcc
-SFLAG = -masm=intel -S
+SFLAGS = -masm=intel
 CC = gcc
-CFLAG = -fPIC -c
+CFLAGS = -fPIC
+LB = ar
+LFLAGS = rcs
+MSG = "< Building static library $(LBY) "
+MSG_X = "< Installing static library $(LBY) to $(X_DIR) "
+X_DIR = /usr/local/lib/
 
+all: $(TARGET)
 $(TARGET): $(OBJS)
 	@echo $(MSG)
-	$(LB) $(LFLAG) $(TARGET) $(OBJS)
+	$(LB) $(LFLAGS) $@ $^
 
-$(OBJS): $(SRCS) $(HDRS)
-	@echo $(MSG)
-	$(CC) $(CFLAG) $(SRCS)
-	cp -t $(OBJ_DIR) $(LBY_DIR)*.o
-	rm $(LBY_DIR)*.o
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HDRS)
+	$(CC) $(CFLAGS) -c $< -o $@
 
-.PHONY: _asm
-_asm:
-	$(AS) $(SFLAG) $(SRCS)
-	cp -t $(ASM_DIR) $(LBY_DIR)*.s
-	rm $(LBY_DIR)*.s
+asm: $(ASMS)
+$(ASM_DIR)%.s: $(SRC_DIR)%.c $(HDRS)
+	@mkdir -p $(ASM_DIR)
+	$(AS) $(SFLAGS) -S $< -o $@
 
-.PHONY: _clean_asm
-_clean_asm:
-	rm $(ASM_DIR)*.s
+clean_asm:
+	rm -rf $(ASM_DIR)
 
-.PHONY: _clean_obj
-_clean_obj:
+clean_obj:
 	rm $(OBJ_DIR)*.o
 
-.PHONY: _clean_all
-_clean_all:
+clean_lib:
 	rm $(TARGET)
-	rm $(OBJS)
-	rm $(ASMS)
 
-# and more..
+clean_all: clean_lib clean_obj clean_asm
+
+install: $(TARGET)
+	@echo $(MSG_X)
+	# sudo cp $(TARGET) $(X_DIR)
+	# sudo ranlib $(X_DIR)$(TARGET)
+
+.PHONY: install clean_all clean_obj clean_asm asm
