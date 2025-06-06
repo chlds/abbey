@@ -25,7 +25,7 @@ X_DIR = /usr/local/lib/
 all: $(TARGET)
 $(TARGET): $(OBJS)
 	@echo $(MSG)
-	$(LB) $(LFLAGS) $@ $^
+	$(LB) $(LFLAGS) -o $@ $^
 
 $(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HDRS)
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -49,6 +49,6 @@ clean_all: clean_lib clean_obj clean_asm
 install: $(TARGET)
 	@echo $(MSG_X)
 	# sudo cp $(TARGET) $(X_DIR)
-	# sudo ranlib $(X_DIR)$(TARGET)
+	# sudo ranlib $(X_DIR)$(LBY)
 
-.PHONY: install clean_all clean_obj clean_asm asm
+.PHONY: install clean_all clean_lib clean_obj clean_asm asm all
