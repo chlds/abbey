@@ -1,3 +1,9 @@
+# define CARL(A) carl(A)
+# define CARH(A) carh(A)
+# define ANDL(A,B) A = andl(A,B)
+# define ANDH(A,B) A = andh(A,B)
+# define ORL(A,B) A = orl(A,B)
+# define ORH(A,B) A = orh(A,B)
 # define TOGG(A) A = togg(A)
 
 static signed CAR_H_HT = ('\t');
