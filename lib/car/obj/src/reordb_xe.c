@@ -1,3 +1,9 @@
+/* Synopsis
+
+Ordering of bytes about endianness
+*/
+
+
 # define CAR_H
 # include "./incl/config.h"
 

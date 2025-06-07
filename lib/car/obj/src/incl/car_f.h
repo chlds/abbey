@@ -315,6 +315,7 @@ signed(__cdecl caracte(signed(arg)));
 signed(__cdecl caract(signed(arg)));
 signed(__cdecl cara(signed char(*argp)));
 signed(__cdecl cara_xe(signed char(*argp)));
+signed(__cdecl mas_xe(signed(arg)));
 signed(__cdecl mas(signed(arg)));
 signed(__cdecl bpl(signed char(*args),signed(argp)));
 signed(__cdecl carl(signed(arg)));
