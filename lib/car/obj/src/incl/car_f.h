@@ -1,3 +1,8 @@
+signed(__cdecl reordb_iv(signed(arg)));
+signed(__cdecl reordb_ii(signed(arg)));
+signed(__cdecl reordb_r(signed(args),signed(argp)));
+signed(__cdecl reordb(signed(args),signed(argp)));
+signed(__cdecl drft(signed(args),signed(argp)));
 signed char *(__cdecl rmwbyw_xe(signed char(*argp)));
 signed char *(__cdecl rmwbyw_rrr(signed char(*argp)));
 signed char *(__cdecl rmwbyw_rr(signed char(*argp)));
