@@ -1,3 +1,6 @@
+signed short(__cdecl reordb_ii_xe(signed short(arg)));
+signed short(__cdecl reordb_xe_r(signed short(args),signed(argp)));
+signed short(__cdecl reordb_xe(signed short(args),signed(argp)));
 signed(__cdecl reordb_iv(signed(arg)));
 signed(__cdecl reordb_ii(signed(arg)));
 signed(__cdecl reordb_r(signed(args),signed(argp)));
