@@ -1,5 +1,9 @@
+signed(__cdecl lcm_xe_r(signed(*args),signed(argp)));
+signed(__cdecl lcm_xe(signed arg,...));
+signed(__cdecl lcm(signed(args),signed(argp)));
 signed(__cdecl gcd_xe_r(signed(*args),signed(argp)));
 signed(__cdecl gcd_xe(signed arg,...));
+signed(__cdecl gcd_rr(signed(args),signed(argp)));
 signed(__cdecl gcd_r(signed(args),signed(argp)));
 signed(__cdecl gcd(signed(args),signed(argp)));
 signed short(__cdecl reordb_ii_xe(signed short(arg)));
