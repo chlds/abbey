@@ -1,3 +1,12 @@
+signed(__cdecl sze_orig_ante_lxiv(signed char(*argp)));
+signed(__cdecl dcd_iii_vi_xxiv_lxiv(signed char(*argp)));
+signed(__cdecl dcd_ii_vi_xxiv_lxiv(signed char(*argp)));
+signed(__cdecl dcd_i_vi_xxiv_lxiv(signed char(*argp)));
+signed(__cdecl dcd_vi_xxiv_lxiv(signed char(*argp)));
+signed(__cdecl dcd_vi_lxiv(signed(arg)));
+signed(__cdecl dcd_xxiv_lxiv(signed char(*args),signed char(*argp)));
+signed char *(__cdecl dcd_lxiv(signed char(*argp)));
+signed(__cdecl ecd_vi_lxiv(signed(arg)));
 signed(__cdecl lcm_xe_r(signed(*args),signed(argp)));
 signed(__cdecl lcm_xe(signed arg,...));
 signed(__cdecl lcm(signed(args),signed(argp)));
