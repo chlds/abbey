@@ -15,7 +15,7 @@ if(r%(t)) r = (r+(t+(0x01+(~(r%(t))))));
 r++;
 b = (signed char*)(alloc(r*(sizeof(char))));
 if(!b) return(b);
-if(EQ(--r,dcd_xxiv_lxiv(b,argp))) return(b);
+if(EQ(--r,dcd_xxiv_lxiv(argp,b))) return(b);
 rl(b);
 b = (0x00);
 return(b);

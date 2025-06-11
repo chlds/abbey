@@ -4,6 +4,7 @@ signed(__cdecl dcd_ii_vi_xxiv_lxiv(signed char(*argp)));
 signed(__cdecl dcd_i_vi_xxiv_lxiv(signed char(*argp)));
 signed(__cdecl dcd_vi_xxiv_lxiv(signed char(*argp)));
 signed(__cdecl dcd_vi_lxiv(signed(arg)));
+signed(__cdecl dcd_viii_xxiv_lxiv(signed char(*args),signed(argp)));
 signed(__cdecl dcd_xxiv_lxiv(signed char(*args),signed char(*argp)));
 signed char *(__cdecl dcd_lxiv(signed char(*argp)));
 signed char *(__cdecl ecd_iv_vi_xxiv_lxiv(signed char(*argp)));
