@@ -10,6 +10,6 @@ r = ct(b);
 if(!(r%(q))) return(b);
 b = catna(CAR_H_PADDING_IN_BASE_LXIV,b);
 r = ct(b);
-if(r%(q)) b = catna(CAR_H_PADDING_IN_BASE_LXIV,b);
-return(b);
+if(!(r%(q))) return(b);
+return(catna(CAR_H_PADDING_IN_BASE_LXIV,b));
 }
