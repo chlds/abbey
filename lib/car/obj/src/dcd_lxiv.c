@@ -1,3 +1,9 @@
+/* Synopsis
+
+Decoding in BASE64 as referenced in RFC #1421
+*/
+
+
 # define CAR_H
 # include "./incl/config.h"
 

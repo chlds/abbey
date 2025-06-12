@@ -15,7 +15,7 @@ TARGET = $(LBY_DIR)$(LBY)
 AS = gcc
 SFLAGS = -masm=intel
 CC = gcc
-CFLAGS = -fPIC
+CFLAGS = -fPIC -Ofast
 LB = ar
 LFLAGS = rcs
 MSG = "< Building static library $(LBY) "
@@ -23,11 +23,11 @@ MSG_X = "< Installing static library $(LBY) to $(X_DIR) "
 X_DIR = /usr/local/lib/
 
 all: $(TARGET)
-$(TARGET): $(OBJS)
+$(TARGET): $(OBJS) ./makefile
 	@echo $(MSG)
 	$(LB) $(LFLAGS) -o $@ $^
 
-$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HDRS)
+$(OBJ_DIR)%.o: $(SRC_DIR)%.c $(HDRS) ./makefile
 	$(CC) $(CFLAGS) -c $< -o $@
 
 asm: $(ASMS)
