@@ -1,11 +1,15 @@
 # define CAR_H
 # include "./incl/config.h"
 
-signed(__cdecl any_ofalphanum_r(signed char(*args),signed(argp))) {
+signed(__cdecl any_ofalphanum_r(signed char(*argp))) {
+auto signed char *b;
 auto signed r;
-r = any_ofnum(args);
-if(!(r^(~0x00))) return(argp);
-if(!(argp^(~0x00))) return(r);
-if(argp<(r)) return(argp);
-return(r);
+if(!(lt(argp))) return(0x00);
+b = cas(argp);
+if(!b) return(0x00);
+r = cmp_apart(b,CAR_H_ALPHANUMERICALS);
+rlse(b);
+b = (0x00);
+if(!r) return(ct_xe(argp));
+return(any_ofalphanum_r(argp+(lt(argp))));
 }

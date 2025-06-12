@@ -2,5 +2,9 @@
 # include "./incl/config.h"
 
 signed(__cdecl any_ofalphanum(signed char(*argp))) {
-return(any_ofalphanum_r(argp,any_ofalpha(argp)));
+auto signed r;
+r = any_ofalphanum_r(argp);
+if(!r) return(~r);
+r = (0x01+(~r));
+return(r+(ct_xe(argp)));
 }
