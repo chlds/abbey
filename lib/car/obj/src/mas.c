@@ -5,7 +5,7 @@ Making a mask of bytes
 
 
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed(__cdecl mas(signed(arg))) {
 auto signed b = (0x02);

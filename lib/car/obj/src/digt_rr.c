@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl digt_rr(signed(arg))) {
 auto signed char a[] = ("0");

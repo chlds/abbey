@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl cv(signed(args/*digit*/),signed(argp))) {
 auto signed char a[] = ("0123456789");

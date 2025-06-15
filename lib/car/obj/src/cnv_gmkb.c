@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed(__cdecl cnv_gmkb(signed(args),signed char(*argp))) {
 auto signed r = (0x0A);

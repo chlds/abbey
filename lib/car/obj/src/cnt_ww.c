@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed(__cdecl cnt_ww(signed short(***argp))) {
 if(!argp) return(0x00);

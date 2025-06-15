@@ -19,25 +19,38 @@
 # endif
 # endif
 
-# ifdef STDLIB_H
-# ifndef READY_FOR_STDLIB_H
-# define READY_FOR_STDLIB_H
-# include <stdlib.h>
+# ifdef ARC_H
+# include "./../arc/obj/src/incl/arc.h"
 # endif
+
+# ifdef CAR_H
+# include "./../car/obj/src/incl/car.h"
+# endif
+
+# ifdef STDIO_H
+# include <stdio.h>
+# endif
+
+# ifdef STDLIB_H
+# include <stdlib.h>
 # endif
 
 # ifdef STDARG_H
-# ifndef READY_FOR_STDARG_H
-# define READY_FOR_STDARG_H
 # include <stdarg.h>
-# endif
 # endif
 
 # ifdef TIME_H
-# ifndef READY_FOR_TIME_H
-# define READY_FOR_TIME_H
 # include <time.h>
 # endif
+
+# ifdef FCNTL_H
+# include <fcntl.h>
 # endif
 
-# include "./car.h"
+# ifdef TERMIOS_H
+# include <termios.h>
+# endif
+
+# ifdef UNISTD_H
+# include <unistd.h>
+# endif

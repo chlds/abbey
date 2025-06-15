@@ -5,7 +5,7 @@ Decoding in BASE64 as referenced in RFC #1421
 
 
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl dcd_lxiv(signed char(*argp))) {
 auto signed char *b;

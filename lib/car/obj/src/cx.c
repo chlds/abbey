@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl cx(signed(argq/*digit*/),signed(argt),signed char(*args/*et*/),signed char(*argp))) {
 auto signed char *b;

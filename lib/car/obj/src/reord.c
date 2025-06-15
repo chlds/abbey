@@ -5,7 +5,7 @@ Reorder
 
 
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl reord(signed char(*argp))) {
 auto signed char *b;

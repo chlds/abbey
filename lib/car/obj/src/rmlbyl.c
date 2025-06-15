@@ -5,7 +5,7 @@ Remove one character at the end of a line
 
 
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl rmlbyl(signed char(*argp))) {
 auto signed char *b;

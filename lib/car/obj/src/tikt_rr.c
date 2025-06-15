@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl tikt_rr(signed(args),signed(argp))) {
 auto signed char *b;

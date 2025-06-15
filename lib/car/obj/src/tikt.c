@@ -5,7 +5,7 @@ Convert
 
 
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl tikt(signed(args),signed(argp))) {
 auto signed char *b;

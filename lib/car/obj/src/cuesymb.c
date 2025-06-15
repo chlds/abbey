@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed(__cdecl cuesymb(signed char(*argp))) {
 if(!(lt(argp))) return(0x00);

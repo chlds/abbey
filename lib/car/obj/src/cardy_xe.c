@@ -1,5 +1,5 @@
 # define CAR_H
-# include "./incl/config.h"
+# include "./../../../incl/config.h"
 
 signed *(__cdecl cardy_xe(signed(*argp))) {
 auto signed *b;
