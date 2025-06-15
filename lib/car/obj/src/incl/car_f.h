@@ -1,5 +1,3 @@
-signed char *(__cdecl rd_k(void));
-//
 signed char *(__cdecl cath_ilv_xe(signed(args),signed char(*argp)));
 signed char *(__cdecl cath_ilv_r(signed(args),signed char(*argp)));
 signed char *(__cdecl cath_ilv(signed(args),signed char(*argp)));
