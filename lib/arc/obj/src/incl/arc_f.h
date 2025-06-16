@@ -1,3 +1,6 @@
+signed(__cdecl currpt_x(void));
+signed(__cdecl currpt_y(void));
+signed(__cdecl currpt(void));
 signed(__cdecl curmv_xe(signed(args),signed(argp)));
 signed(__cdecl curmv(signed(args),signed(argp)));
 signed(__cdecl wrs(signed(argt),signed char(*args),signed(argp)));

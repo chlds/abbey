@@ -103,6 +103,7 @@ signed(__cdecl endln_spa(signed char(*argp)));
 signed(__cdecl endln_mb(signed char(*argp)));
 signed(__cdecl endln_lt(signed char(*argp)));
 //
+signed(__cdecl cntto(signed char(*args),signed char(*argp)));
 signed(__cdecl cntev(signed char(*argp)));
 signed(__cdecl cntet(signed char(*argp)));
 signed char **(__cdecl cathev_r(signed char(*argp)));
@@ -352,7 +353,7 @@ signed char *(__cdecl cata_xe(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cata_rr(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cata_r(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cata(signed char(*args),signed char(*argp)));
-signed char *(__cdecl cathy_xxe(signed(args),signed char(*argp)));
+signed char *(__cdecl cathy_xxe(signed char(*args),signed(argp)));
 signed char *(__cdecl cathy_xe(signed char(*argp)));
 signed char *(__cdecl cathy(signed char(*argp)));
 signed char *(__cdecl cy(signed char(*args),signed char(*argp)));
