@@ -1,3 +1,5 @@
+signed(__cdecl curordi(void));
+signed(__cdecl curabsc(void));
 signed(__cdecl currpt_x(void));
 signed(__cdecl currpt_y(void));
 signed(__cdecl currpt(void));

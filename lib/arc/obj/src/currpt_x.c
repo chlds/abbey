@@ -6,7 +6,6 @@ DECXCPR: Report Cursor Position
 
 # define ARC_H
 # define CAR_H
-# define UNISTD_H
 # include "./../../../incl/config.h"
 
 signed(__cdecl currpt_x(void)) {
