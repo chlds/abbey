@@ -1,3 +1,5 @@
+signed(__cdecl colms(void));
+signed(__cdecl rows(void));
 signed(__cdecl clr_all(void));
 signed(__cdecl clr_l(void));
 signed(__cdecl clr_r(void));

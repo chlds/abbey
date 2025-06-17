@@ -47,6 +47,10 @@
 # include <fcntl.h>
 # endif
 
+# ifdef SYS_IOCTL_H
+# include <sys/ioctl.h>
+# endif
+
 # ifdef TERMIOS_H
 # include <termios.h>
 # endif
