@@ -1,3 +1,12 @@
+signed(__cdecl clr_all(void));
+signed(__cdecl clr_l(void));
+signed(__cdecl clr_r(void));
+signed(__cdecl ed_entire(void));
+signed(__cdecl ed_ante(void));
+signed(__cdecl ed_poste(void));
+signed(__cdecl el_entire(void));
+signed(__cdecl el_ante(void));
+signed(__cdecl el_poste(void));
 signed(__cdecl curordi(void));
 signed(__cdecl curabsc(void));
 signed(__cdecl currpt_x(void));
