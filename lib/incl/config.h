@@ -9,6 +9,7 @@
 # ifndef READY_FOR_COMPILING_ON_WSL_H
 # define READY_FOR_COMPILING_ON_WSL_H
 # define __cdecl __attribute__((ms_abi))
+# define __sysv __attribute__((sysv_abi))
 # endif
 # endif
 
@@ -45,6 +46,10 @@
 
 # ifdef FCNTL_H
 # include <fcntl.h>
+# endif
+
+# ifdef SIGNAL_H
+# include <signal.h>
 # endif
 
 # ifdef SYS_IOCTL_H

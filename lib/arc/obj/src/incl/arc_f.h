@@ -1,3 +1,4 @@
+void(__sysv realign(signed(arg)));
 signed(__cdecl colms(void));
 signed(__cdecl rows(void));
 signed(__cdecl clr_all(void));
