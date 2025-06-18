@@ -1,6 +1,6 @@
 /* Synopsis
 
-DECXCPR: Report Cursor Position
+CHA: Cursor Horizontal Absolute
 */
 
 
@@ -9,12 +9,13 @@ DECXCPR: Report Cursor Position
 # define UNISTD_H
 # include "./../../../incl/config.h"
 
-signed(__cdecl currpt(void)) {
+signed(__cdecl curhorz(signed(arg))) {
 auto signed char *b;
 auto signed r;
-auto signed char a[] = ("6n");
+auto signed char a[] = ("G");
+if(!(0x00<(arg))) arg = (0x01);
 b = (ARC_H_CONTROL_SEQUENCE_INTRODUCER);
-b = catna(a,cathy(b));
+b = catna(a,catno(arg,cathy(b)));
 r = (STDOUT_FILENO);
 r = wrs(r,b,ct(b));
 rlse(b);
