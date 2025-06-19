@@ -1,3 +1,7 @@
+signed *(__cdecl catt_u_r(signed(args),signed(*argp)));
+signed *(__cdecl catt_u(signed(arg)));
+signed(__cdecl rlse_u(signed(*argp)));
+signed(__cdecl bury_u(signed(*argp)));
 signed(__cdecl lt_u(signed(*argp)));
 signed(__cdecl caracte_u(signed(arg)));
 signed(__cdecl caract_u(signed(arg)));
