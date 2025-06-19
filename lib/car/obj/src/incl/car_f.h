@@ -1,3 +1,6 @@
+signed(__cdecl ecd_u_xxxii_rr(signed char(*argp)));
+signed(__cdecl ecd_u_xxxii_r(signed char(*argp)));
+signed(__cdecl ecd_u_xxxii(signed char(*argp)));
 signed char *(__cdecl cath_ilv_xe(signed(args),signed char(*argp)));
 signed char *(__cdecl cath_ilv_r(signed(args),signed char(*argp)));
 signed char *(__cdecl cath_ilv(signed(args),signed char(*argp)));
@@ -367,6 +370,7 @@ signed(__cdecl ct_lxiv(signed char(*argp)));
 signed(__cdecl ct_xe(signed char(*argp)));
 signed(__cdecl ct(signed char(*argp)));
 signed(__cdecl bury(signed char(*argp)));
+signed(__cdecl blt(signed char(*argp)));
 signed(__cdecl lt_xe(signed char(*argp)));
 signed(__cdecl lt(signed char(*argp)));
 signed(__cdecl caracte(signed(arg)));
