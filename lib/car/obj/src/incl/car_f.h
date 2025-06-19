@@ -1,3 +1,7 @@
+signed(__cdecl lt_u_xxxii(signed(*argp)));
+signed(__cdecl caracte_u_xxxii(signed(arg)));
+signed(__cdecl caract_u_xxxii(signed(arg)));
+signed(__cdecl cara_u_xxxii(signed(*argp)));
 signed(__cdecl ecd_u_xxxii_rr(signed char(*argp)));
 signed(__cdecl ecd_u_xxxii_r(signed char(*argp)));
 signed(__cdecl ecd_u_xxxii(signed char(*argp)));
