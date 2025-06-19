@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed(__cdecl caract_u_xxxii(signed(arg))) {
+signed(__cdecl caract_u(signed(arg))) {
 // auto signed b7 = (36); // 36b (0+(6e(6
 // auto signed b6 = (31); // 31b (1+(6e(5
 // auto signed b5 = (26); // 26b (2+(6e(4
