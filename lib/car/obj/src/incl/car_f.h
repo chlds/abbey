@@ -1,5 +1,18 @@
+signed *(__cdecl ecds_u(signed char(*argp)));
+signed *(__cdecl catta_u(signed(*args),signed(*argp)));
+signed *(__cdecl cata_xe_u_rr(signed(*args),signed(*argp)));
+signed *(__cdecl cata_xe_u_r(signed(*args),signed(*argp)));
+signed *(__cdecl cata_xe_u(signed(*args),signed(*argp)));
+signed *(__cdecl cata_u_rr(signed(*args),signed(*argp)));
+signed *(__cdecl cata_u_r(signed(*args),signed(*argp)));
+signed *(__cdecl cata_u(signed(*args),signed(*argp)));
+signed *(__cdecl catt_xe_u(signed(arg)));
 signed *(__cdecl catt_u_r(signed(args),signed(*argp)));
 signed *(__cdecl catt_u(signed(arg)));
+signed *(__cdecl cy_u(signed(*args),signed(*argp)));
+signed(__cdecl cym_u(signed(*args),signed(*argp)));
+signed(__cdecl cyb_u(signed(*args),signed(*argp)));
+signed(__cdecl ct_u(signed(*argp)));
 signed(__cdecl rlse_u(signed(*argp)));
 signed(__cdecl bury_u(signed(*argp)));
 signed(__cdecl lt_u(signed(*argp)));
