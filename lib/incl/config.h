@@ -48,6 +48,10 @@
 # include <fcntl.h>
 # endif
 
+# ifdef LOCALE_H
+# include <locale.h>
+# endif
+
 # ifdef SIGNAL_H
 # include <signal.h>
 # endif
@@ -62,4 +66,8 @@
 
 # ifdef UNISTD_H
 # include <unistd.h>
+# endif
+
+# ifdef WCHAR_H
+# include <wchar.h>
 # endif
