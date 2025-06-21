@@ -1,6 +1,9 @@
 void(__sysv realign(signed(arg)));
 signed(__cdecl curvert(signed(arg)));
 signed(__cdecl curhorz(signed(arg)));
+signed(__cdecl colms_oflt_xe_rr(signed(*argp)));
+signed(__cdecl colms_oflt_xe_r(signed char(*argp)));
+signed(__cdecl colms_oflt_xe(signed char(*argp)));
 signed(__cdecl colms_oflt(signed char(*argp)));
 signed(__cdecl colms(void));
 signed(__cdecl rows(void));

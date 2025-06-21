@@ -1,3 +1,4 @@
+signed char *(__cdecl dcds_u(signed(*argp)));
 signed char *(__cdecl dcd_u_rr(signed(args),signed(argp)));
 signed char *(__cdecl dcd_u_r(signed(arg)));
 signed char *(__cdecl dcd_u(signed(arg)));
