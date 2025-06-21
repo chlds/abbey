@@ -1,7 +1,9 @@
+signed char *(__cdecl dcds_xe_u(signed(*argp)));
 signed char *(__cdecl dcds_u(signed(*argp)));
 signed char *(__cdecl dcd_u_rr(signed(args),signed(argp)));
 signed char *(__cdecl dcd_u_r(signed(arg)));
 signed char *(__cdecl dcd_u(signed(arg)));
+signed *(__cdecl ecds_xe_u(signed char(*argp)));
 signed *(__cdecl ecds_u(signed char(*argp)));
 signed *(__cdecl catta_u(signed(*args),signed(*argp)));
 signed *(__cdecl cata_xe_u_rr(signed(*args),signed(*argp)));
