@@ -28,6 +28,10 @@
 # include "./../car/obj/src/incl/car.h"
 # endif
 
+# ifdef CAT_H
+# include "./../cat/obj/src/incl/cat.h"
+# endif
+
 # ifdef STDIO_H
 # include <stdio.h>
 # endif

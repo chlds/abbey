@@ -21,6 +21,15 @@ CAR_ASMS = $(CAR_SRCS:$(CAR_SRC_DIR)%.c=$(CAR_ASM_DIR)%.s)
 CAR_HDRS = $(wildcard $(CAR_HDR_DIR)*.h)
 CAR_SRCS = $(wildcard $(CAR_SRC_DIR)*.c)
 CAR_OBJS = $(CAR_SRCS:$(CAR_SRC_DIR)%.c=$(CAR_OBJ_DIR)%.o)
+CAT_LBY_DIR = $(LBY_DIR)cat/
+CAT_OBJ_DIR = $(CAT_LBY_DIR)obj/
+CAT_SRC_DIR = $(CAT_OBJ_DIR)src/
+CAT_HDR_DIR = $(CAT_SRC_DIR)incl/
+CAT_ASM_DIR = $(CAT_HDR_DIR)asm/
+CAT_ASMS = $(CAT_SRCS:$(CAT_SRC_DIR)%.c=$(CAT_ASM_DIR)%.s)
+CAT_HDRS = $(wildcard $(CAT_HDR_DIR)*.h)
+CAT_SRCS = $(wildcard $(CAT_SRC_DIR)*.c)
+CAT_OBJS = $(CAT_SRCS:$(CAT_SRC_DIR)%.c=$(CAT_OBJ_DIR)%.o)
 TARGET = $(LBY_DIR)$(LBY)
 AS = gcc
 SFLAGS = -masm=intel
@@ -33,7 +42,7 @@ MSG_X = "< Installing static library $(LBY) to $(X_DIR) "
 X_DIR = /usr/local/lib/
 
 all: $(TARGET)
-$(TARGET): $(ARC_OBJS) $(CAR_OBJS) ./makefile
+$(TARGET): $(ARC_OBJS) $(CAR_OBJS) $(CAT_OBJS) ./makefile
 	@echo $(MSG)
 	$(LB) $(LFLAGS) -o $@ $^
 
@@ -43,6 +52,9 @@ $(ARC_LBY_DIR)makefile:
 $(CAR_LBY_DIR)makefile:
 	$(MAKE) -C $(CAR_LBY_DIR)
 
+$(CAT_LBY_DIR)makefile:
+	$(MAKE) -C $(CAT_LBY_DIR)
+
 # $(ARC_OBJ_DIR)%.o: $(ARC_SRC_DIR)%.c $(ARC_HDRS) ./makefile
 $(ARC_OBJS): $(ARC_OBJ_DIR)%.o: $(ARC_SRC_DIR)%.c $(ARC_HDRS) ./makefile
 	$(CC) $(CFLAGS) -c $< -o $@
@@ -51,17 +63,24 @@ $(ARC_OBJS): $(ARC_OBJ_DIR)%.o: $(ARC_SRC_DIR)%.c $(ARC_HDRS) ./makefile
 $(CAR_OBJS): $(CAR_OBJ_DIR)%.o: $(CAR_SRC_DIR)%.c $(CAR_HDRS) ./makefile
 	$(CC) $(CFLAGS) -c $< -o $@
 
+# $(CAT_OBJ_DIR)%.o: $(CAT_SRC_DIR)%.c $(CAT_HDRS) ./makefile
+$(CAT_OBJS): $(CAT_OBJ_DIR)%.o: $(CAT_SRC_DIR)%.c $(CAT_HDRS) ./makefile
+	$(CC) $(CFLAGS) -c $< -o $@
+
 asm:
 	$(MAKE) -C $(ARC_LBY_DIR) asm
 	$(MAKE) -C $(CAR_LBY_DIR) asm
+	$(MAKE) -C $(CAT_LBY_DIR) asm
 
 clean_asm:
 	$(MAKE) -C $(ARC_LBY_DIR) clean_asm
 	$(MAKE) -C $(CAR_LBY_DIR) clean_asm
+	$(MAKE) -C $(CAT_LBY_DIR) clean_asm
 
 clean_obj:
 	$(MAKE) -C $(ARC_LBY_DIR) clean_obj
 	$(MAKE) -C $(CAR_LBY_DIR) clean_obj
+	$(MAKE) -C $(CAT_LBY_DIR) clean_obj
 
 clean_lib:
 	rm $(TARGET)
