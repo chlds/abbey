@@ -1,5 +1,9 @@
+signed char *(__cdecl cal_md_xe(signed(args),void(*argp)));
+signed char *(__cdecl cal_md(signed(args),void(*argp)));
+signed(__cdecl cal_sm_xe(signed(args),void(*argp)));
 signed(__cdecl cal_sm(signed(args),void(*argp)));
 signed(__cdecl cal_mn(signed(args),void(*argp)));
+signed(__cdecl cal_hr_xe(signed(args),void(*argp)));
 signed(__cdecl cal_hr(signed(args),void(*argp)));
 signed(__cdecl cal_ds(signed(args),void(*argp)));
 signed(__cdecl cal_dy(signed(args),void(*argp)));
