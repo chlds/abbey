@@ -1,2 +1,12 @@
+signed(__cdecl cal_sm(signed(args),void(*argp)));
+signed(__cdecl cal_mn(signed(args),void(*argp)));
+signed(__cdecl cal_hr(signed(args),void(*argp)));
+signed(__cdecl cal_ds(signed(args),void(*argp)));
+signed(__cdecl cal_dy(signed(args),void(*argp)));
+signed(__cdecl cal_dm(signed(args),void(*argp)));
+signed(__cdecl cal_dw(signed(args),void(*argp)));
+signed(__cdecl cal_mo(signed(args),void(*argp)));
+signed(__cdecl cal_yr(signed(args),void(*argp)));
+void *(__cdecl cal_te(signed(args),void(*argp)));
 void *(__cdecl tme_xe(void));
 void *(__cdecl tme(void));
