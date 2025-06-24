@@ -14,7 +14,7 @@ gmtime,
 if(!argp) return(argp);
 b = (time_t*)(argp);
 d = (e);
-if(args) d++;
+if(!args) d++;
 c = (*d);
 return(c(b));
 }
