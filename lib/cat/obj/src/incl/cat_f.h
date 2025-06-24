@@ -1,3 +1,5 @@
+signed(__cdecl cnt_tz_r(void(*argp)));
+signed(__cdecl cnt_tz(void(*argp)));
 signed char *(__cdecl cal_md_xe(signed(args),void(*argp)));
 signed char *(__cdecl cal_md(signed(args),void(*argp)));
 signed(__cdecl cal_sm_xe(signed(args),void(*argp)));
