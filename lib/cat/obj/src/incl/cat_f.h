@@ -1,3 +1,7 @@
+void *(__cdecl ckhn(void(*args),signed(argp)));
+signed(__cdecl grt(void(*args),signed(argp)));
+signed(__cdecl canonpin(signed(arg)));
+signed(__cdecl wlt(signed(arg)));
 signed(__cdecl cnt_tz_r(void(*argp)));
 signed(__cdecl cnt_tz(void(*argp)));
 signed char *(__cdecl cal_md_xe(signed(args),void(*argp)));

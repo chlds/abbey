@@ -2,6 +2,7 @@
 # define global
 # define external extern
 
+// # define DBG_H
 # define AL_H
 # define COMPILING_ON_WSL_H // e.g., for WSL running on x86
 
@@ -10,6 +11,13 @@
 # define READY_FOR_COMPILING_ON_WSL_H
 # define __cdecl __attribute__((ms_abi))
 # define __sysv __attribute__((sysv_abi))
+# endif
+# endif
+
+# ifdef DBG_H
+# ifndef READY_FOR_DBG_H
+# define READY_FOR_DBG_H
+# include "./dbg.h"
 # endif
 # endif
 
