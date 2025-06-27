@@ -1,3 +1,10 @@
+signed(__cdecl cnt_tz_hr(void(*argp)));
+signed(__cdecl cnt_tz_mn(void(*argp)));
+signed char *(__cdecl cv_tz_hr(void(*argp)));
+signed char *(__cdecl cv_tz_mn(void(*argp)));
+signed char *(__cdecl cv_tz_rr(void(*args),signed char(*argp)));
+signed char *(__cdecl cv_tz_r(void(*argp)));
+signed char *(__cdecl cv_tz(void(*argp)));
 void *(__cdecl ckhn(void(*args),signed(argp)));
 signed(__cdecl grt(void(*args),signed(argp)));
 signed(__cdecl canonpin(signed(arg)));
