@@ -1,3 +1,5 @@
+signed char *(__cdecl cv_tz_utc_xe(signed char(*argp)));
+signed char *(__cdecl cv_tz_utc(signed char(*argp)));
 signed(__cdecl cnt_tz_hr(void(*argp)));
 signed(__cdecl cnt_tz_mn(void(*argp)));
 signed char *(__cdecl cv_tz_hr(void(*argp)));
