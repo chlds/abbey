@@ -1,3 +1,8 @@
+signed(__cdecl ctdn_dw(signed(argt),signed(args),void(*argp)));
+signed(__cdecl ctdn_dm(signed(args),void(*argp)));
+signed(__cdecl ctdn_wy(signed(args),void(*argp)));
+signed(__cdecl ordwk_yr(signed(args),void(*argp)));
+signed(__cdecl ordwk_mo(signed(args),void(*argp)));
 signed char *(__cdecl cv_tz_utc_xe(signed char(*argp)));
 signed char *(__cdecl cv_tz_utc(signed char(*argp)));
 signed(__cdecl cnt_tz_hr(void(*argp)));
@@ -15,6 +20,7 @@ signed(__cdecl cnt_tz_r(void(*argp)));
 signed(__cdecl cnt_tz(void(*argp)));
 signed char *(__cdecl cal_md_xe(signed(args),void(*argp)));
 signed char *(__cdecl cal_md(signed(args),void(*argp)));
+signed(__cdecl cal_midnight(signed(args),void(*argp)));
 signed(__cdecl cal_sm_xe(signed(args),void(*argp)));
 signed(__cdecl cal_sm(signed(args),void(*argp)));
 signed(__cdecl cal_mn(signed(args),void(*argp)));

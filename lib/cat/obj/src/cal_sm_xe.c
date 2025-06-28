@@ -3,14 +3,12 @@
 # include "./../../../incl/config.h"
 
 signed(__cdecl cal_sm_xe(signed(args),void(*argp))) {
-auto time_t *b;
 auto signed r;
 auto signed m = (60);
 if(!argp) return(0x00);
-b = (time_t*)(argp);
-r = (m*(cal_hr(args,b)));
+r = cal_mn(args,argp);
 if(r<(0x00)) return(0x00);
-r = (m*(r+(cal_mn(args,b))));
+r = (m*(r+(m*(cal_hr(args,argp)))));
 if(r<(0x00)) return(0x00);
 return(r);
 }
