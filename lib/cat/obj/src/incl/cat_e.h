@@ -1,0 +1,10 @@
+enum daysoftheweek {
+CAT_H_SUNDAY,
+CAT_H_MONDAY,
+CAT_H_TUESDAY,
+CAT_H_WEDNESDAY,
+CAT_H_THURSDAY,
+CAT_H_FRIDAY,
+CAT_H_SATURDAY,
+CAT_H_DAYS_OF_THE_WEEK,
+} typedef daysoftheweek_e;

@@ -1,3 +1,5 @@
+signed(__cdecl cnt_e_xe(signed(__cdecl**argp)(signed(args),void(*argt))));
+signed(__cdecl cnt_e(signed(__cdecl**argp)(void(*args))));
 signed char *(__cdecl dcds_xe_u(signed(*argp)));
 signed char *(__cdecl dcds_u(signed(*argp)));
 signed char *(__cdecl dcd_u_rr(signed(args),signed(argp)));

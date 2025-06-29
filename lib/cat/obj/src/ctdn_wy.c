@@ -1,6 +1,4 @@
-# define CAR_H
 # define CAT_H
-# define TIME_H
 # include "./../../../incl/config.h"
 
 signed(__cdecl ctdn_wy(signed(args),void(*argp))) {

@@ -1,3 +1,14 @@
+signed(__cdecl cntwk_sat_r(signed(args),void(*argp)));
+signed(__cdecl cntwk_sat(signed(args),void(*argp)));
+signed(__cdecl cntwk_fri(signed(args),void(*argp)));
+signed(__cdecl cntwk_thu(signed(args),void(*argp)));
+signed(__cdecl cntwk_wed(signed(args),void(*argp)));
+signed(__cdecl cntwk_tue(signed(args),void(*argp)));
+signed(__cdecl cntwk_mon_r(signed(args),void(*argp)));
+signed(__cdecl cntwk_mon(signed(args),void(*argp)));
+signed(__cdecl cntwk_sun_r(signed(args),void(*argp)));
+signed(__cdecl cntwk_sun(signed(args),void(*argp)));
+signed(__cdecl cntwk(signed(argt),signed(args),void(*argp)));
 signed(__cdecl ctdn_dw(signed(argt),signed(args),void(*argp)));
 signed(__cdecl ctdn_dm(signed(args),void(*argp)));
 signed(__cdecl ctdn_wy(signed(args),void(*argp)));
