@@ -1,3 +1,8 @@
+signed char *(__cdecl cvwn_rrr(signed(args),void(*argp)));
+signed char *(__cdecl cvwn_rr(signed(argt),signed(args),void(*argp)));
+signed char *(__cdecl cvwn_r(signed(argt),signed(args),void(*argp)));
+signed char *(__cdecl cvwn(signed(argt),signed(args),void(*argp)));
+void *(__cdecl cvyr_wknum(void(*args),signed(argp)));
 signed(__cdecl cntwk_sat_r(signed(args),void(*argp)));
 signed(__cdecl cntwk_sat(signed(args),void(*argp)));
 signed(__cdecl cntwk_fri(signed(args),void(*argp)));
