@@ -1,3 +1,17 @@
+signed(__cdecl cat_on_carryover_in_ll(signed(args/*dm*/),signed(argp/*mo*/)));
+signed(__cdecl cat_on_moon_in_ll(signed(arg/*mo*/)));
+signed char *(__cdecl cat_january_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_february_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_march_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_april_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_may_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_june_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_july_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_august_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_september_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_october_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_november_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cat_december_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
 signed char *(__cdecl cvwn_rrr(signed(args),void(*argp)));
 signed char *(__cdecl cvwn_rr(signed(argt),signed(args),void(*argp)));
 signed char *(__cdecl cvwn_r(signed(argt),signed(args),void(*argp)));
