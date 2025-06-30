@@ -25,6 +25,7 @@ signed char *(__cdecl cal_di_on_new_moon_in_ll(signed(args),void(*argp)));
 signed char *(__cdecl cal_di_on_full_moon_in_ll(signed(args),void(*argp)));
 signed char *(__cdecl cal_di_on_hollow_moon_in_ll(signed(args),void(*argp)));
 signed char *(__cdecl cal_dm_in_ll(signed(args),void(*argp)));
+signed char *(__cdecl cal_mo_in_ll(signed(args),void(*argp)));
 signed(__cdecl cal_on_carryover_in_ll(signed(args/*dm*/),signed(argp/*mo*/)));
 signed(__cdecl cal_on_moon_in_ll(signed(arg/*mo*/)));
 signed char *(__cdecl cal_january_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
