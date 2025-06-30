@@ -2,14 +2,14 @@
 # define CAT_H
 # include "./../../../incl/config.h"
 
-signed char *(__cdecl cat_december_in_ll(signed(args/*dm*/),signed(argp/*carryover*/))) {
+signed char *(__cdecl cal_april_in_ll(signed(args/*dm*/),signed(argp/*carryover*/))) {
 auto signed char *b;
 auto signed r;
-auto signed char a[] = ("DECEMB");
+auto signed char a[] = ("APRIL");
 auto signed char *(e[]) = {
-"ER",
-"RIBVS",
-"RES",
+"IS",
+"IBVS",
+"ES",
 0x00,
 };
 b = (0x00);
