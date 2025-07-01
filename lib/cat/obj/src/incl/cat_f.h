@@ -40,6 +40,7 @@ signed char *(__cdecl cal_september_in_ll(signed(args/*dm*/),signed(argp/*carryo
 signed char *(__cdecl cal_october_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
 signed char *(__cdecl cal_november_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
 signed char *(__cdecl cal_december_in_ll(signed(args/*dm*/),signed(argp/*carryover*/)));
+signed char *(__cdecl cal_yr_in_ll(signed(args),void(*argp)));
 signed char *(__cdecl cvwn_rrr(signed(args),void(*argp)));
 signed char *(__cdecl cvwn_rr(signed(argt),signed(args),void(*argp)));
 signed char *(__cdecl cvwn_r(signed(argt),signed(args),void(*argp)));

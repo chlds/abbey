@@ -1,3 +1,13 @@
+signed char *(__cdecl cv_romnum_xe_rrrr(signed(arg)));
+signed char *(__cdecl cv_romnum_xe_rrr(signed(arg)));
+signed char *(__cdecl cv_romnum_xe_rr(signed(arg)));
+signed char *(__cdecl cv_romnum_xe_r(signed(arg)));
+signed char *(__cdecl cv_romnum_xe(signed(arg)));
+signed char *(__cdecl cv_romnum_rrrr(signed(arg)));
+signed char *(__cdecl cv_romnum_rrr(signed(arg)));
+signed char *(__cdecl cv_romnum_rr(signed(arg)));
+signed char *(__cdecl cv_romnum_r(signed(arg)));
+signed char *(__cdecl cv_romnum(signed(arg)));
 signed(__cdecl cnt_e_xxe(void *(__cdecl**argp)(void(*args))));
 signed(__cdecl cnt_e_xe(signed(__cdecl**argp)(signed(args),void(*argt))));
 signed(__cdecl cnt_e(signed(__cdecl**argp)(void(*args))));

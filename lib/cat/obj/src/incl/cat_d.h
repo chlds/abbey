@@ -24,6 +24,8 @@
 # define CAT_H_TERTIVM_DECIMVM (13+(~0x00)) // 12th
 # define CAT_H_SEPTIMVM_DECIMVM (17+(~0x00)) // 16th
 
+static signed char CAT_H_SPACE[] = (" ");
+
 static signed char CAT_H_MIDDLE_DOT_XE[] = {
 0x20,0xC2,0xB7,0x20,0x00,
 };
@@ -36,7 +38,7 @@ static signed char CAT_H_BULLET[] = {
 0xE2,0x80,0xA2,0x00,
 };
 
-static signed char *CAT_H_WORD_SEPARATOR = (CAT_H_MIDDLE_DOT);
+static signed char *CAT_H_WORD_SEPARATOR = (CAT_H_SPACE);
 
 static signed char *(CAT_H_WEEK[]) = {
 "Sunday",
