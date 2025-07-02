@@ -40,7 +40,31 @@ static signed char CAT_H_BULLET[] = {
 
 static signed char *CAT_H_WORD_SEPARATOR = (CAT_H_SPACE);
 
-static signed char *(CAT_H_WEEK[]) = {
+static signed char CAT_H_DAY_NM_SG_IN_LL[] = ("DIES");
+
+static signed char *(CAT_H_WEEK_GE_SG_IN_LL[]) = {
+"SOLIS",
+"LVNAE",
+"MARTIS",
+"MERCVRII",
+"IOVIS",
+"VENERIS",
+"SATVRNI",
+0x00,
+};
+
+static signed char *(CAT_H_WEEK_GE_SG_ABBREV_IN_LL[]) = {
+"SO",
+"L",
+"MA",
+"ME",
+"I",
+"V",
+"SA",
+0x00,
+};
+
+static signed char *(CAT_H_WEEK_IN_EN[]) = {
 "Sunday",
 "Monday",
 "Tuesday",
@@ -51,7 +75,7 @@ static signed char *(CAT_H_WEEK[]) = {
 0x00,
 };
 
-static signed char *(CAT_H_WK[]) = {
+static signed char *(CAT_H_WEEK_ABBREV_IN_EN[]) = {
 "Sun",
 "Mon",
 "Tue",
@@ -62,7 +86,7 @@ static signed char *(CAT_H_WK[]) = {
 0x00,
 };
 
-static signed char *(CAT_H_MONTH[]) = {
+static signed char *(CAT_H_MONTH_IN_EN[]) = {
 "January",
 "February",
 "March",
@@ -78,7 +102,7 @@ static signed char *(CAT_H_MONTH[]) = {
 0x00,
 };
 
-static signed char *(CAT_H_MON[]) = {
+static signed char *(CAT_H_MONTH_ABBREV_IN_EN[]) = {
 "Jan",
 "Feb",
 "Mar",

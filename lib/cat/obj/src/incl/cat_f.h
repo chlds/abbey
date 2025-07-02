@@ -1,3 +1,9 @@
+signed char *(__cdecl cal_dw_abbrev_in_en(signed(arg)));
+signed char *(__cdecl cal_dw_in_en(signed(arg)));
+signed char *(__cdecl cal_dw_in(signed(args),signed char(**argp)));
+signed char *(__cdecl cal_dw_abbrev_in_ll(signed(arg)));
+signed char *(__cdecl cal_dw_in_ll(signed(arg)));
+signed char *(__cdecl cal_dw_in_latn(signed(args),signed char(**argp)));
 signed char *(__cdecl cal_kalendis(void));
 signed char *(__cdecl cal_kalendas(void));
 signed char *(__cdecl cal_nonis(void));
