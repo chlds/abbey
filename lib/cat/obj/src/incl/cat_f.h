@@ -1,3 +1,5 @@
+signed char *(__cdecl clck(signed(args),void(*argp)));
+signed char *(__cdecl cal_dm_in_en(signed(arg)));
 signed char *(__cdecl cal_mo_abbrev_in_en(signed(arg)));
 signed char *(__cdecl cal_mo_in_en(signed(arg)));
 signed char *(__cdecl cal_mo_in(signed(args),signed char(**argp)));

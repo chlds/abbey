@@ -25,6 +25,16 @@
 # define CAT_H_SEPTIMVM_DECIMVM (17+(~0x00)) // 16th
 
 static signed char CAT_H_SPACE[] = (" ");
+static signed char CAT_H_FULL_STOP[] = (".");
+static signed char CAT_H_COLON[] = (":");
+
+static signed char CAT_H_DOUBLE_PRIME[] = {
+0xE2,0x80,0xB3,0x00,
+};
+
+static signed char CAT_H_PRIME[] = {
+0xE2,0x80,0xB2,0x00,
+};
 
 static signed char CAT_H_MIDDLE_DOT_XE[] = {
 0x20,0xC2,0xB7,0x20,0x00,
@@ -39,6 +49,7 @@ static signed char CAT_H_BULLET[] = {
 };
 
 static signed char *CAT_H_WORD_SEPARATOR = (CAT_H_SPACE);
+static signed char *CAT_H_SEPARATOR = (CAT_H_COLON);
 
 static signed char CAT_H_DAY_NM_SG_IN_LL[] = ("DIES");
 
