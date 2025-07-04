@@ -3,12 +3,12 @@
 # define TIME_H
 # include "./../../../incl/config.h"
 
-signed char *(__cdecl clck_xxe_r(void(*argp))) {
+signed char *(__cdecl clcks_m_tz(signed(args),void(*argp))) {
 auto signed char *b;
 auto time_t e;
 auto signed char *a = (CAT_H_SPACE);
-b = (0x00);
-if(!argp) return(b);
+b = clcks_m(args,argp);
+if(!b) return(b);
 e = cnt_tz(argp);
-return(catha(a,cv_tz_utc_xe(cv_tz(&e))));
+return(cathe(b,catha(a,cv_tz_utc_xe(cv_tz(&e)))));
 }
