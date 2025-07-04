@@ -8,7 +8,7 @@ Clock hands
 # define TIME_H
 # include "./../../../incl/config.h"
 
-void *(__cdecl ckhn(void(*args),signed(argp))) {
+void *(__cdecl ckhn(void(*args),signed(argp/*crown*/))) {
 auto time_t *t;
 if(!args) return(args);
 t = (time_t*)(tme());
