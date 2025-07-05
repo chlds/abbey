@@ -16,7 +16,7 @@ auto signed n = (CAT_H_NOON);
 auto signed x = (CAT_H_SCALE);
 if(!args) return(0x00);
 t = cnt_tz(args);
-r = (t+(canonpin(argp)));
+r = (t+(canonpin(wlt(argp))));
 if(r<(0x00)) r = (r+(a*(x)));
 if(!(r<(n*(x)))) r = (r+(0x01+(~(a*(x)))));
 r = (r+(0x01+(~t)));
