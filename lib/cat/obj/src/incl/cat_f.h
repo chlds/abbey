@@ -10,6 +10,7 @@ signed char *(__cdecl clck_r(signed(args),void(*argp)));
 signed char *(__cdecl clck(signed(args),void(*argp)));
 signed char *(__cdecl cal_dte_abbrev_in_en_us(signed(args),void(*argp)));
 signed char *(__cdecl cal_dte_abbrev_in_en_gb(signed(args),void(*argp)));
+signed char *(__cdecl cal_dte_in_ll(signed(args),void(*argp)));
 signed char *(__cdecl cal_dte_in_en_us(signed(args),void(*argp)));
 signed char *(__cdecl cal_dte_in_en_gb(signed(args),void(*argp)));
 signed char *(__cdecl cal_dm_abbrev_in_en_us(signed(arg)));

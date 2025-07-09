@@ -39,10 +39,10 @@ b = c();
 if(EQ(k,r)) return(b);
 if(EQ(n,r)) return(b);
 if(EQ(i,r)) return(b);
-if(r<(n)) b = cathe(b,catha(a,cal_nonas()));
-if(EQ(r,n+(~0x00))) return(b);
-if(r<(n)) return(catne(b,catna(a,catne(cal_diem(),catna(a,cal_ante())))));
-b = cathe(b,catha(a,cal_idvs()));
+c = cal_nonas;
+if(n<(r)) c = cal_idvs;
+b = cathe(b,catha(a,c()));
 if(EQ(r,i+(~0x00))) return(b);
+if(EQ(r,n+(~0x00))) return(b);
 return(catne(b,catna(a,catne(cal_diem(),catna(a,cal_ante())))));
 }
