@@ -72,6 +72,14 @@
 # include <sys/ioctl.h>
 # endif
 
+# ifdef SYS_TYPES_H
+# include <sys/types.h>
+# endif
+
+# ifdef SYS_STAT_H
+# include <sys/stat.h>
+# endif
+
 # ifdef TERMIOS_H
 # include <termios.h>
 # endif

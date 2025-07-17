@@ -1,3 +1,5 @@
+signed(__cdecl xt_am(signed char(*argp)));
+signed(__cdecl xt_pm(signed char(*argp)));
 signed char *(__cdecl cv_romnum_xe_rrrr(signed(arg)));
 signed char *(__cdecl cv_romnum_xe_rrr(signed(arg)));
 signed char *(__cdecl cv_romnum_xe_rr(signed(arg)));
