@@ -1,3 +1,5 @@
+signed(__cdecl closes(signed(arg)));
+signed(__sysv opens(signed char(*args),signed(argp),...));
 void(__sysv realign(signed(arg)));
 signed(__cdecl curvert(signed(arg)));
 signed(__cdecl curhorz(signed(arg)));

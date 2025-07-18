@@ -56,6 +56,10 @@
 # include <time.h>
 # endif
 
+# ifdef ERRNO_H
+# include <errno.h>
+# endif
+
 # ifdef FCNTL_H
 # include <fcntl.h>
 # endif
