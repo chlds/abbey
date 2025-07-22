@@ -1,3 +1,6 @@
+signed(__cdecl lydn(signed char(*argp)));
+signed(__cdecl hrmabsc(void));
+signed(__cdecl hrmordi(void));
 signed(__cdecl closes(signed(arg)));
 signed(__sysv opens(signed char(*args),signed(argp),...));
 void(__sysv realign(signed(arg)));
@@ -27,6 +30,7 @@ signed(__cdecl curmv_xe(signed(args),signed(argp)));
 signed(__cdecl curmv(signed(args),signed(argp)));
 signed(__cdecl wrs(signed(argt),signed char(*args),signed(argp)));
 signed(__cdecl rds(signed(argt),signed char(*args),signed(argp)));
+signed char *(__cdecl rdt(signed(args),void(*argp)));
 signed char *(__cdecl rd_k(void));
 signed(__cdecl rdb_k(void));
 signed(__cdecl kbdhit(void));
