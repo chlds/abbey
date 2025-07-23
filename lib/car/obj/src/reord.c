@@ -11,8 +11,7 @@ signed char *(__cdecl reord(signed char(*argp))) {
 auto signed char *b;
 auto signed char a[] = ("");
 if(!argp) return(argp);
-if(!(lt(argp))) return(cathy(a));
 b = cas(argp);
-if(!b) return(b);
+if(!b) return(cathy(a));
 return(catne(b,reord(argp+(lt(argp)))));
 }

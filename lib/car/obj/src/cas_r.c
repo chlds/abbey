@@ -7,7 +7,7 @@ if(!(lt(argp))) return(0x00);
 argp = cathy(argp);
 b = (argp+(lt(argp)));
 bury(b);
-b = cathe(argp,0x00);
+b = cathy_xe(argp);
 argp = (0x00);
 return(b);
 }
