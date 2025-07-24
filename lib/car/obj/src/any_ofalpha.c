@@ -2,9 +2,7 @@
 # include "./../../../incl/config.h"
 
 signed(__cdecl any_ofalpha(signed char(*argp))) {
-auto signed r;
-r = any_ofalpha_r(argp);
-if(!r) return(~r);
-r = (0x01+(~r));
-return(r+(ct_xe(argp)));
+auto signed char *b;
+b = (CAR_H_LETTERS);
+return(any_of(b,argp));
 }
