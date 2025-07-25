@@ -2,6 +2,6 @@
 # define UNISTD_H
 # include "./../../../incl/config.h"
 
-signed(__cdecl wrs(signed(argt),signed char(*args),signed(argp))) {
+signed(__cdecl writes(signed(argt),signed char(*args),signed(argp))) {
 return(write(argt,args,argp));
 }

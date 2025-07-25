@@ -1,5 +1,6 @@
 signed(__cdecl cre(signed char(*argp)));
 signed(__cdecl already_in(signed char(*argp)));
+signed char *(__cdecl xtt(signed char(*argq/*perm*/),signed char(*argt/*path*/),signed(args),signed char *(__cdecl*argp)(signed(args),signed(argx/*desc*/))));
 signed(__cdecl xt(signed char(*argq/*perm*/),signed char(*argt/*path*/),signed(args),signed(__cdecl*argp)(signed(args),signed(argx/*desc*/))));
 signed(__cdecl xt_pm_r(signed char(*argp)));
 signed(__cdecl xt_pm(signed char(*argp)));

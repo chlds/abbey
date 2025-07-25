@@ -17,7 +17,7 @@ if(!(0x00<(arg))) arg = (0x01);
 b = (ARC_H_CONTROL_SEQUENCE_INTRODUCER);
 b = catna(a,catno(arg,cathy(b)));
 r = (STDOUT_FILENO);
-r = wrs(r,b,ct(b));
+r = writes(r,b,ct(b));
 rlse(b);
 b = (0x00);
 return(r);

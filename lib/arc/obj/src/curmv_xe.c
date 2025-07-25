@@ -19,7 +19,7 @@ if(!(0x00<(argp))) argp = (0x01);
 b = (ARC_H_CONTROL_SEQUENCE_INTRODUCER);
 b = catna(h,catno(args,catna(a,catno(argp,cathy(b)))));
 r = (STDOUT_FILENO);
-r = wrs(r,b,ct(b));
+r = writes(r,b,ct(b));
 rlse(b);
 b = (0x00);
 return(r);
