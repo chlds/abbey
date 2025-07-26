@@ -32,6 +32,8 @@ signed(__cdecl writes(signed(argt),void(*args),signed(argp)));
 signed(__cdecl reads(signed(argt),void(*args),signed(argp)));
 signed(__cdecl wrs(signed(args),signed char(*argp)));
 signed(__cdecl rds(signed(arg)));
+signed(__cdecl rde_r(signed(args),signed(argp)));
+signed(__cdecl rde(signed(arg)));
 signed char *(__cdecl rdl_r(signed(args),signed(argp)));
 signed char *(__cdecl rdl(signed(arg)));
 signed char *(__cdecl rdt(signed(args),void(*argp)));

@@ -3,7 +3,7 @@
 # define ERRNO_H
 # include "./../../../incl/config.h"
 
-signed(__cdecl xt(signed char(*argq/*perm*/),signed char(*argt/*path*/),signed(args),signed(__cdecl*argp)(signed(args),signed(argx/*desc*/)))) {
+signed(__cdecl xt(signed char(*argq/*perm*/),signed char(*argt/*path*/),signed(args),signed(__cdecl*argp)(signed(argx/*desc*/),signed(args)))) {
 auto signed d;
 auto signed r;
 if(!argq) return(0x00);
@@ -13,7 +13,7 @@ d = opens(argt,r,xt_pm(argq));
 if(!(0x01+(d))) return(0x00);
 AND(r,0x00);
 OR(r,0x01);
-if(argp) r = argp(args,d);
+if(argp) r = argp(d,args);
 if(!(0x01+(closes(d)))) return(0x00);
 return(r);
 }

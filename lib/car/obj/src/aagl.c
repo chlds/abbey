@@ -7,6 +7,9 @@ At a glance
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char *(__cdecl aagl(signed(args/*letters*/),signed(argp/*desc*/))) {
-return(aag(argp,args));
+signed char *(__cdecl aagl(signed char(*args/*path*/),signed(argp/*letters*/))) {
+auto signed char a[] = ("rdonly");
+if(!args) return(0x00);
+if(!(0x00<(argp))) return(0x00);
+return(xtt(a,args,argp,aag));
 }
