@@ -1,3 +1,6 @@
+signed char *(__cdecl glan(signed char(*args/*path*/),signed(argp/*letters*/)));
+signed char *(__cdecl aagl(signed(args/*letters*/),signed(argp/*desc*/)));
+signed char *(__cdecl aag(signed(args),signed(argp)));
 signed(__cdecl cre(signed char(*argp)));
 signed(__cdecl already_in(signed char(*argp)));
 signed char *(__cdecl xtt(signed char(*argq/*perm*/),signed char(*argt/*path*/),signed(args),signed char *(__cdecl*argp)(signed(args),signed(argx/*desc*/))));
