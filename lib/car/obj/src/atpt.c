@@ -1,3 +1,9 @@
+/* Synopsis
+
+Attempt / Seek
+*/
+
+
 # define CAR_H
 # define ARC_H
 # include "./../../../incl/config.h"
