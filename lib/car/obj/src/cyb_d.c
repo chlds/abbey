@@ -3,7 +3,7 @@
 
 signed *(__cdecl cyb_d(signed(**args),signed(**argp))) {
 if(!argp) return(0x00);
-if(!args) return(0x00);
-*argp = cardy(*args);
+*argp = (0x00);
+if(args) *argp = cardy(*args);
 return(*argp);
 }
