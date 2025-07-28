@@ -413,6 +413,8 @@ signed(__cdecl cnt_r(signed char(**argp)));
 signed(__cdecl cnt(signed char *argp,...));
 signed(__cdecl ct_lxiv(signed char(*argp)));
 signed(__cdecl ct_xe(signed char(*argp)));
+signed(__cdecl algn(signed char(*argp)));
+signed(__cdecl coht(signed char(*argp)));
 signed(__cdecl ct(signed char(*argp)));
 signed(__cdecl bury(signed char(*argp)));
 signed(__cdecl blt(signed char(*argp)));

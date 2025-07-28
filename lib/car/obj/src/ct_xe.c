@@ -2,6 +2,8 @@
 # include "./../../../incl/config.h"
 
 signed(__cdecl ct_xe(signed char(*argp))) {
-if(!(lt(argp))) return(0x00);
-return(0x01+(ct_xe(argp+(lt(argp)))));
+auto signed r;
+r = algn(argp);
+if(!r) return(r);
+return(0x01+(ct_xe(argp+(r))));
 }
