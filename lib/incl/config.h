@@ -64,6 +64,10 @@
 # include <fcntl.h>
 # endif
 
+# ifdef LIMITS_H
+# include <limits.h>
+# endif
+
 # ifdef LOCALE_H
 # include <locale.h>
 # endif

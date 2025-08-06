@@ -11,7 +11,6 @@ r++;
 r = (r*(sizeof(*b)));
 b = (signed char**)(alloc(r));
 if(!b) return(b);
-*b = (0x00);
 cy_b(argp,cy_b(args,b));
 return(b);
 }
