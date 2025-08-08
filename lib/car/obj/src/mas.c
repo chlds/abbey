@@ -5,10 +5,10 @@ Making a mask of bytes
 
 
 # define CAR_H
+# define LIMITS_H
 # include "./../../../incl/config.h"
 
 signed(__cdecl mas(signed(arg))) {
-auto signed b = (0x02);
-if(arg<(0x00)) AND(arg,0x00);
-return(dec(r_pow(b,arg*(bpb()))));
+if(EQ(CHAR_BIT,0x08)) return(mas_xxe(arg));
+return(mas_r(arg));
 }
