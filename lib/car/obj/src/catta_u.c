@@ -8,10 +8,7 @@ b = (0x00);
 r = ct_u(argp);
 r = (r+(ct_u(args)));
 r++;
-r = (r*(sizeof(*b)));
-b = (signed*)(alloc(r));
-if(!b) return(b);
-*b = (0x00);
+b = (signed*)(alloc(r*(sizeof(*b))));
 cy_u(argp,cy_u(args,b));
 return(b);
 }

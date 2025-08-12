@@ -8,9 +8,7 @@ b = (0x00);
 r = ct(argp);
 r = (r+(ct(args)));
 r++;
-r = (r*(sizeof(*b)));
-b = (signed char*)(alloc(r));
-if(!b) return(b);
+b = (signed char*)(alloc(r*(sizeof(*b))));
 cy(argp,cy(args,b));
 return(b);
 }
