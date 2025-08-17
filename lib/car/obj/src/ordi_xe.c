@@ -4,6 +4,6 @@
 signed(__cdecl ordi_xe(signed(args),signed(**argp))) {
 auto signed r;
 r = ordi(args,argp);
-rlse_d(argp);
+rlse_m(argp);
 return(r);
 }
