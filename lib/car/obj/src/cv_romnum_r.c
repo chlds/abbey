@@ -19,7 +19,7 @@ auto signed char *(e[]) = {
 };
 b = (0x00);
 if(!(0x00<(arg))) return(b);
-r = cnt_b(e);
+r = cnt_v(e);
 if(!r) return(b);
 b = (*(e+(arg%(r))));
 return(catna(b,cv_romnum_rr(arg/(r))));

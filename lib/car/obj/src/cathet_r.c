@@ -10,6 +10,6 @@ r = cuet_xe(argp);
 if(!r) return(w);
 b = cathy(argp);
 bury(r+(b));
-w = catt_b_xe(b);
-return(cata_b(w,cathet_r(argp+(r))));
+w = catt_v_xe(b);
+return(cata_v(w,cathet_r(argp+(r))));
 }

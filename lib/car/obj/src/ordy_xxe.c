@@ -4,7 +4,7 @@
 signed(__cdecl ordy_xxe(signed char(*argt),signed char(**args),signed(**argp))) {
 auto signed r;
 r = ordy_xe(argt,args,argp);
-rlse_b(args);
+rlse_v(args);
 args = (0x00);
 return(r);
 }

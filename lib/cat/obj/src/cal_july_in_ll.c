@@ -14,7 +14,7 @@ auto signed char *(e[]) = {
 };
 b = (0x00);
 if(!(0x00<(args))) return(b);
-r = cnt_b(e);
+r = cnt_v(e);
 if(!argp) {
 if(EQ(CAT_H_KALENDAE,args)) --r;
 if(EQ(CAT_H_NONAE_ON_FULL_MOON,args)) --r;

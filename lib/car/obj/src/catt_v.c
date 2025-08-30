@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char **(__cdecl catt_b(signed char(*argp))) {
+signed char **(__cdecl catt_v(signed char(*argp))) {
 auto signed char **b;
 auto signed r;
 AND(r,0x00);
@@ -11,5 +11,5 @@ r = (r*(sizeof(*b)));
 b = (signed char**)(alloc(r));
 if(!b) return(b);
 *b = (0x00);
-return(catt_b_r(argp,b));
+return(catt_v_r(argp,b));
 }

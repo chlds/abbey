@@ -35,7 +35,7 @@ auto signed char *(a[]) = {
 };
 if(!argp) return(0x00);
 if(!(*argp)) return(0x00);
-r = cnt_b(a);
+r = cnt_v(a);
 if(!r) return(r);
 return(ordy_xe(argp,a,cath_m(r,\
 O_CREAT,O_EXCL,O_APPEND,O_TRUNC,\

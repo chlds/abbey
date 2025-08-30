@@ -23,7 +23,7 @@ auto signed char *(a[]) = {
 };
 if(!argp) return(0x00);
 if(!(*argp)) return(0x00);
-r = cnt_b(a);
+r = cnt_v(a);
 if(!r) return(r);
 return(ordy_xe(argp,a,cath_m(r,S_IRWXU,S_IRUSR,S_IWUSR,S_IXUSR,S_IRWXG,S_IRGRP,S_IWGRP,S_IXGRP,S_IRWXO,S_IROTH,S_IWOTH,S_IXOTH)));
 }
