@@ -16,7 +16,7 @@ if(!(lt(argp))) return(cathy(a));
 d = (e);
 b = cas(argp);
 if(!b) return(b);
-if(none(any_ofnum(b))) d++;
+if(none(anynum(b))) d++;
 c = (*d);
 return(c(b,cat_num(argp+(lt(argp)))));
 }
