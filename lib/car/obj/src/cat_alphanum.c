@@ -16,7 +16,7 @@ if(!(lt(argp))) return(cathy(a));
 d = (e);
 b = cas(argp);
 if(!b) return(b);
-if(none(any_ofalphanum(b))) d++;
+if(none(anyalphnum(b))) d++;
 c = (*d);
 return(c(b,cat_alphanum(argp+(lt(argp)))));
 }
