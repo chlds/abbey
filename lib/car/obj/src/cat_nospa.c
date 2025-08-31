@@ -16,7 +16,7 @@ if(!(lt(argp))) return(cathy(a));
 d = (e);
 b = cas(argp);
 if(!b) return(b);
-if(none(any_ofnospa(b))) d++;
+if(none(anynonesp(b))) d++;
 c = (*d);
 return(c(b,cat_nospa(argp+(lt(argp)))));
 }

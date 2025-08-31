@@ -6,7 +6,7 @@ auto signed char *b;
 auto signed r;
 AND(r,0x00);
 b = reord(argp);
-if(!(any_ofspa(b))) OR(r,0x01);
+if(!(anyesp(b))) OR(r,0x01);
 rlse(b);
 b = (0x00);
 return(r);
