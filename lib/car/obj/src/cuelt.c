@@ -10,6 +10,6 @@ if(cuelf(argp)) return(0x00);
 if(cuecr(argp)) return(0x00);
 if(cuesp(argp)) return(0x00);
 if(cuenum(argp)) return(0x00);
-if(cuesymb(argp)) return(0x00);
+if(cuesym(argp)) return(0x00);
 return(0x01+(cuelt(argp+(lt(argp)))));
 }

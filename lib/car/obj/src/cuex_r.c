@@ -3,7 +3,7 @@
 
 signed(__cdecl cuex_r(signed char(*argp))) {
 auto signed r;
-r = cuesymb(argp);
+r = cuesym(argp);
 if(r) return(r);
 return(cuex_rr(argp));
 }

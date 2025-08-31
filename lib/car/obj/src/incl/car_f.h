@@ -191,7 +191,6 @@ signed(__cdecl anynonsym(signed char(*argp)));
 signed(__cdecl cuesym_xxe(signed char(*argp)));
 signed(__cdecl cuesym_xe(signed char(*argp)));
 signed(__cdecl cuesym(signed char(*argp)));
-signed(__cdecl cuesymb(signed char(*argp)));
 signed(__cdecl anynum(signed char(*argp)));
 signed(__cdecl anynonnum(signed char(*argp)));
 signed(__cdecl cuenum_xxe(signed char(*argp)));
