@@ -10,7 +10,7 @@ rmlt_xe,
 0x00,
 };
 d = (e);
-if(any_ofmb(argp)) d++;
+if(anymb(argp)) d++;
 c = (*d);
 return(c(argp));
 }
