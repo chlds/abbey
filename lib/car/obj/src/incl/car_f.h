@@ -378,7 +378,6 @@ signed char *(__cdecl cas(signed char(*argp)));
 signed char *(__cdecl casc_r(signed(args),signed char(*argp)));
 signed char *(__cdecl casc(signed char(*args),signed(argp)));
 signed char *(__cdecl casca_xe(signed char(*argp)));
-signed char *(__cdecl casca_r(signed char(*argp)));
 signed char *(__cdecl casca(signed char(*argp)));
 signed char *(__cdecl catn_xe_r(signed char(**argp)));
 signed char *(__cdecl catn_xe(signed char *argp,...));
