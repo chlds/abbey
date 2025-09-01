@@ -3,11 +3,10 @@
 
 signed char *(__cdecl cv_low(signed char(*argp))) {
 auto signed char *b;
-auto signed char a[] = ("");
 if(!argp) return(argp);
-if(!(lt(argp))) return(cathy(a));
 b = catt_xe(cv_lower(*argp));
 if(!b) b = cas(argp);
 if(!b) return(b);
-return(cathe(b,cv_low(argp+(lt(argp)))));
+if(!(*b)) return(b);
+return(cathe(b,cv_low(argp+(ct(b)))));
 }
