@@ -7,8 +7,7 @@ auto signed r;
 b = (0x00);
 r = ct_u(argp);
 r = (r+(ct_u(args)));
-r++;
-b = (signed*)(alloc(r*(sizeof(*b))));
+b = (signed*)(alloc(++r*(sizeof(*b))));
 cy_u(argp,cy_u(args,b));
 return(b);
 }

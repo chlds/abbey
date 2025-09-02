@@ -6,9 +6,7 @@ auto signed char **b;
 auto signed r;
 if(!argp) return(argp);
 r = cnt_v(argp);
-r++;
-r = (r*(sizeof(*argp)));
-b = (signed char **)(alloc(r));
+b = (signed char**)(alloc(++r*(sizeof(*argp))));
 cym_v(argp,b);
 return(b);
 }

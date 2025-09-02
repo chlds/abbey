@@ -7,8 +7,7 @@ auto signed r;
 b = (0x00);
 r = cnt_v(argp);
 r = (r+(cnt_v(args)));
-r++;
-b = (signed char**)(alloc(r*(sizeof(*b))));
+b = (signed char**)(alloc(++r*(sizeof(*b))));
 cy_v(argp,cy_v(args,b));
 return(b);
 }
