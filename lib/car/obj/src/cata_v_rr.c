@@ -2,5 +2,5 @@
 # include "./../../../incl/config.h"
 
 signed char **(__cdecl cata_v_rr(signed char(**args),signed char(**argp))) {
-return(catta_xe(args,argp));
+return(catta_v(args,argp));
 }

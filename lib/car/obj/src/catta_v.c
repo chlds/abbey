@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char **(__cdecl catta_xe(signed char(**args),signed char(**argp))) {
+signed char **(__cdecl catta_v(signed char(**args),signed char(**argp))) {
 auto signed char **b;
 auto signed r;
 b = (0x00);
