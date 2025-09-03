@@ -5,13 +5,15 @@ signed char *(__cdecl cath_lxiv(signed char(*args),signed char *(__cdecl*argp)(s
 auto signed char *b;
 auto signed r;
 auto signed q = (0x04);
+auto signed char *a = (CAR_H_PADDING_IN_BASE_LXIV);
 b = (0x00);
 if(!argp) return(b);
 b = argp(args);
 r = ct(b);
 if(!(r%(q))) return(b);
-b = catna(CAR_H_PADDING_IN_BASE_LXIV,b);
-r = ct(b);
+b = catna(a,b);
+if(!b) return(b);
+ADD(r,ct(a));
 if(!(r%(q))) return(b);
-return(catna(CAR_H_PADDING_IN_BASE_LXIV,b));
+return(catna(a,b));
 }
