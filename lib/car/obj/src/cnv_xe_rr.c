@@ -15,7 +15,7 @@ if(r) return(r*(cnv_xe_rr(args,(l+(argp)))));
 r = cnv_gmkb(args,argp);
 if(r) return(r*(cnv_xe_rr(args,++argp)));
 r = cara(argp);
-r = ord(r,a);
-if(!(r<(args))) return(cnv_xe_rr(args,++argp));
+r = ordi(r,a);
+if(r<(0x00)) return(cnv_xe_rr(args,++argp));
 return(r+(args*(cnv_xe_rr(args,++argp))));
 }

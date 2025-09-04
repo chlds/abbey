@@ -309,7 +309,6 @@ signed(__cdecl ords_apart(signed char(*args),signed char(**argp)));
 signed(__cdecl ords_part_xe(signed char(*args),signed char(**argp)));
 signed(__cdecl ords_part(signed char(*args),signed char(**argp)));
 signed(__cdecl ords(signed char(*args),signed char(**argp)));
-signed(__cdecl ord(signed(args),signed char(*argp)));
 signed(__cdecl neg(signed(arg)));
 signed char *(__cdecl reord_xe(signed char(*argp)));
 signed char *(__cdecl reord(signed char(*argp)));

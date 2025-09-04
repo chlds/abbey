@@ -10,7 +10,7 @@ if(!(*argp)) return(r);
 args = ra(a,args);
 if(!(0x01^(args))) return(r);
 r = cara(argp);
-r = ord(r,a);
-if(!(r<(args))) return(cnv_rr(args,++argp));
+r = ordi(r,a);
+if(r<(0x00)) return(cnv_rr(args,++argp));
 return(r+(args*(cnv_rr(args,++argp))));
 }
