@@ -1,11 +1,11 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char *(__cdecl cath_alphanum(signed char(*argp))) {
+signed char *(__cdecl cath_nonesp(signed char(*argp))) {
 auto signed char *b;
 auto signed r;
-b = catalphnum(argp);
-r = anynonalphnum(b);
+b = catnonesp(argp);
+r = anyesp(b);
 if(none(r)) return(b);
 bury(r+(b));
 return(cathy_xe(b));
