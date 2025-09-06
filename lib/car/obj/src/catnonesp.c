@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char *(__cdecl cat_num(signed char(*argp))) {
+signed char *(__cdecl catnonesp(signed char(*argp))) {
 auto signed char *b;
 auto signed char *(__cdecl*c)(signed char(*args),signed char(*argp));
 auto signed char *(__cdecl**d)(signed char(*args),signed char(*argp));
@@ -15,7 +15,7 @@ d = (e);
 b = cas(argp);
 if(!b) return(b);
 if(!(*b)) return(b);
-if(none(anynum(b))) d++;
+if(none(anynonesp(b))) d++;
 c = (*d);
-return(c(b,cat_num(argp+(ct(b)))));
+return(c(b,catnonesp(argp+(ct(b)))));
 }

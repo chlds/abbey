@@ -4,7 +4,7 @@
 signed char *(__cdecl cath_nospa(signed char(*argp))) {
 auto signed char *b;
 auto signed r;
-b = cat_nospa(argp);
+b = catnonesp(argp);
 r = anyesp(b);
 if(none(r)) return(b);
 bury(r+(b));
