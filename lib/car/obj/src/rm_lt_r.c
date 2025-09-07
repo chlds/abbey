@@ -9,6 +9,6 @@ if(endln_lf(argp)) return(argp);
 if(endln_cr(argp)) return(argp);
 if(endln_esp(argp)) return(argp);
 if(endln_num(argp)) return(argp);
-if(endln_symb(argp)) return(argp);
+if(endln_sym(argp)) return(argp);
 return(rm_lt_r(rmlbyl_xe(argp)));
 }

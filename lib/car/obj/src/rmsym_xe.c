@@ -1,9 +1,9 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char *(__cdecl rmsymb_xe(signed char(*argp))) {
+signed char *(__cdecl rmsym_xe(signed char(*argp))) {
 auto signed char *b;
-b = rmsymb(argp);
+b = rmsym(argp);
 rlse(argp);
 argp = (0x00);
 return(b);
