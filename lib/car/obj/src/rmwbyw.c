@@ -11,5 +11,5 @@ Refer at fn. cuev and/or cuet
 # include "./../../../incl/config.h"
 
 signed char *(__cdecl rmwbyw(signed char(*argp))) {
-return(reord_xe(rmwbyw_r(rmspa_xe(reord(argp)))));
+return(reord_xe(rmwbyw_r(rmesp_xe(reord(argp)))));
 }

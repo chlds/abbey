@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed(__cdecl endln_spa(signed char(*argp))) {
+signed(__cdecl endln_esp(signed char(*argp))) {
 auto signed char *b;
 auto signed r;
 AND(r,0x00);
