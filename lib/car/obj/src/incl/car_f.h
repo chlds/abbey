@@ -58,6 +58,7 @@ signed(__cdecl ecd_u(signed char(*argp)));
 signed char *(__cdecl cath_ilv_xe(signed(args),signed char(*argp)));
 signed char *(__cdecl cath_ilv_r(signed(args),signed char(*argp)));
 signed char *(__cdecl cath_ilv(signed(args),signed char(*argp)));
+signed char *(__cdecl ilv(signed char(*args),signed char(*argp)));
 signed(__cdecl sze_orig_ante_lxiv_xe(signed char(*argp)));
 signed(__cdecl sze_orig_ante_lxiv(signed char(*argp)));
 signed(__cdecl dcd_iii_vi_xxiv_lxiv(signed char(*argp)));
