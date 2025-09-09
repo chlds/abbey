@@ -7,6 +7,5 @@ if(!argp) return(argp);
 r = cara(argp);
 AND(r,mas_xe(0x04));
 SHL(r,0x02);
-r = ecd_vi_lxiv(r);
-return(catt(r));
+return(catt(ecd_vi_lxiv(r)));
 }
