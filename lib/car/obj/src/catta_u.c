@@ -4,7 +4,6 @@
 signed *(__cdecl catta_u(signed(*args),signed(*argp))) {
 auto signed *b;
 auto signed r;
-b = (0x00);
 r = ct_u(argp);
 r = (r+(ct_u(args)));
 b = (signed*)(alloc(++r*(sizeof(*b))));

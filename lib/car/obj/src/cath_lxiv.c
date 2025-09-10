@@ -11,9 +11,7 @@ if(!argp) return(b);
 b = argp(args);
 r = ct(b);
 if(!(r%(q))) return(b);
-b = catna(a,b);
-if(!b) return(b);
 ADD(r,ct(a));
-if(!(r%(q))) return(b);
-return(catna(a,b));
+if(!(r%(q))) return(catna(a,b));
+return(catna(a,catna(a,b)));
 }
