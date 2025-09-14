@@ -1,3 +1,11 @@
+signed(__cdecl cylxiv_rr(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cylxiv_r(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cylxiv(signed char(*argp)));
+signed(__cdecl cntlxiv_rr(signed char(*argp)));
+signed(__cdecl cntlxiv_r(signed char(*argp)));
+signed(__cdecl cntlxiv(signed char(*argp)));
+signed(__cdecl cnte_xe(signed char(*args),signed char(*argp)));
+signed(__cdecl cnte(signed char(*args),signed char(*argp)));
 signed(__cdecl cynonbrk_rr(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cynonbrk_r(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cynonbrk(signed char(*argp)));
