@@ -1,3 +1,7 @@
+signed(__cdecl cynonbrk_rr(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cynonbrk_r(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cynonbrk(signed char(*argp)));
+signed(__cdecl cntnonbrk(signed char(*argp)));
 signed(__cdecl atpt(signed(args),signed(argp)));
 signed char *(__cdecl aagl(signed char(*args/*path*/),signed(argp/*letters*/)));
 signed char *(__cdecl aag(signed(args),signed(argp)));
@@ -220,6 +224,7 @@ signed char *(__cdecl cath_num(signed char(*argp)));
 signed char *(__cdecl cath_nonesp_xe(signed char(*argp)));
 signed char *(__cdecl cath_nonesp(signed char(*argp)));
 signed char *(__cdecl cath_lxiv_xe(signed char(*args),signed char *(__cdecl*argp)(signed char(*args))));
+signed char *(__cdecl cath_lxiv_r_r_r(signed char(*argp)));
 signed char *(__cdecl cath_lxiv_r_r(signed char(*argp)));
 signed char *(__cdecl cath_lxiv_r(signed char(*argp)));
 signed char *(__cdecl cath_lxiv(signed char(*args),signed char *(__cdecl*argp)(signed char(*args))));
