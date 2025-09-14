@@ -314,7 +314,7 @@ signed(__cdecl ordi_m(signed(args),signed(**argp)));
 signed(__cdecl ordi_v_xe(signed char(*args),signed char(**argp)));
 signed(__cdecl ordi_v_r(signed char(*args),signed char(**argp)));
 signed(__cdecl ordi_v(signed char(*args),signed char(**argp)));
-signed(__cdecl ordi_xe(signed(args),signed char(*argp)));
+signed(__cdecl ordi_xe(signed char(*args),signed(argp)));
 signed(__cdecl ordi_r(signed(args),signed char(*argp)));
 signed(__cdecl ordi(signed(args),signed char(*argp)));
 signed(__cdecl ordn(signed(args),signed(*argp)));

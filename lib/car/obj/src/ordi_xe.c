@@ -1,10 +1,6 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed(__cdecl ordi_xe(signed(args),signed char(*argp))) {
-auto signed r;
-r = ordi(args,argp);
-rlse(argp);
-argp = (0x00);
-return(r);
+signed(__cdecl ordi_xe(signed char(*args),signed(argp))) {
+return(ordi(argp,args));
 }
