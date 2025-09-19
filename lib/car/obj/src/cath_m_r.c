@@ -8,5 +8,5 @@ if(!(0x00<(argp))) return(0x00);
 r = (sizeof(args));
 args = (args+(r/(sizeof(*args))));
 b = cardi(args);
-return(casse(b,cath_m_r(args,--argp)));
+return(casse_m(b,cath_m_r(args,--argp)));
 }
