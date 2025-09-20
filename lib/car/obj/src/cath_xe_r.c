@@ -6,5 +6,5 @@ auto signed char *b;
 if(!argp) return(0x00);
 b = (*argp);
 if(!b) return(b);
-return(cata(b,cath_xe_r(++argp)));
+return(cathe(b,cath_xe_r(++argp)));
 }

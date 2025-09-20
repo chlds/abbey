@@ -2,5 +2,5 @@
 # include "./../../../incl/config.h"
 
 signed char *(__cdecl cathe(signed char(*args),signed char(*argp))) {
-return(cata(args,argp));
+return(casse(args,argp));
 }

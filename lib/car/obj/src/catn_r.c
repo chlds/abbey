@@ -4,7 +4,7 @@
 signed char *(__cdecl catn_r(signed char(**argp))) {
 auto signed char *b;
 if(!argp) return(0x00);
-b = cathy(*argp);
+b = (*argp);
 if(!b) return(b);
-return(cata_xe(b,catn_r(++argp)));
+return(catna(b,catn_r(++argp)));
 }

@@ -3,5 +3,5 @@
 
 signed char *(__cdecl catho_xe(signed(args),signed char(*argp))) {
 auto signed char a[] = ("0123456789ABCDEF");
-return(cata_xe(argp,tikt(args,ra(a,ct(a)))));
+return(catne(argp,tikt(args,ra(a,ct(a)))));
 }

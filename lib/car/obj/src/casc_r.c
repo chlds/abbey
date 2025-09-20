@@ -7,5 +7,5 @@ if(!(0x00<(args))) return(0x00);
 b = cas(argp);
 if(!b) return(b);
 if(!(*b)) return(b);
-return(cata(b,casc_r(--args,argp+(ct(b)))));
+return(cathe(b,casc_r(--args,argp+(ct(b)))));
 }

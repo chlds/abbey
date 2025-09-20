@@ -5,5 +5,5 @@ signed char *(__cdecl dcds_u(signed(*argp))) {
 auto signed char *b;
 b = dcd_u(*argp);
 if(!b) return(b);
-return(cata(b,dcds_u(++argp)));
+return(cathe(b,dcds_u(++argp)));
 }

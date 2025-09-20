@@ -12,5 +12,5 @@ signed char *(__cdecl rd_k(void)) {
 auto signed char *b;
 b = catt(rdb_k());
 if(!(kbdhit())) return(b);
-return(cata(b,rd_k()));
+return(cathe(b,rd_k()));
 }
