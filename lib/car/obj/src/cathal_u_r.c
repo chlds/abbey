@@ -1,7 +1,7 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed *(__cdecl catt_u_r(signed(args),signed(*argp))) {
+signed *(__cdecl cathal_u_r(signed(args),signed(*argp))) {
 auto signed *b;
 b = (argp);
 if(!b) return(b);
