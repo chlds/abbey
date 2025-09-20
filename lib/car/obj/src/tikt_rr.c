@@ -10,7 +10,7 @@ argp = ra(a,argp);
 if(!(0x01^(argp))) return(b);
 if(args<(0x00)) args = (0x01+(~args));
 if(args<(0x00)) AND(args,0x00);
-b = catt(cara(a+(args%(argp))));
+b = cathal(cara(a+(args%(argp))));
 if(!b) return(b);
 args = (args/(argp));
 if(!args) return(b);

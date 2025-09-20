@@ -6,7 +6,7 @@ auto signed char **b;
 if(!argp) return(argp);
 b = (0x00);
 if(!(*argp)) return(b);
-b = catt_v(*argp);
+b = cathal_v(*argp);
 if(!b) return(b);
 return(casse_v(b,cath_v_r(++argp)));
 }

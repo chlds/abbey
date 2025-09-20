@@ -4,7 +4,7 @@
 signed char *(__cdecl cv_upp(signed char(*argp))) {
 auto signed char *b;
 if(!argp) return(argp);
-b = catt_xe(cv_upper(*argp));
+b = cathal_xe(cv_upper(*argp));
 if(!b) b = cas(argp);
 if(!b) return(b);
 if(!(*b)) return(b);

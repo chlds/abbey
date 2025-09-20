@@ -10,7 +10,7 @@ Reading a single character entered from the keyboard without echoing it onto the
 
 signed char *(__cdecl rd_k(void)) {
 auto signed char *b;
-b = catt(rdb_k());
+b = cathal(rdb_k());
 if(!(kbdhit())) return(b);
 return(cathe(b,rd_k()));
 }

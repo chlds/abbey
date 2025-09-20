@@ -12,6 +12,6 @@ signed char *(__cdecl rdt(signed(args),void(*argp))) {
 auto signed r;
 if(!argp) return(argp);
 r = rdb(argp);
-if(EQ(args,r)) return(catt(r));
+if(EQ(args,r)) return(cathal(r));
 return(catho_xxe(r,rdt(args,argp)));
 }

@@ -6,5 +6,5 @@ auto signed r;
 if(!argp) return(argp);
 r = cara(argp);
 AND(r,mas_xe(0x06));
-return(catt(ecd_vi_lxiv(r)));
+return(cathal(ecd_vi_lxiv(r)));
 }
