@@ -8,5 +8,5 @@ w = (0x00);
 r = cuev_xe(argp);
 if(!r) return(w);
 w = catt_v_xe(cyne(argp,r));
-return(cata_v(w,cathev_r(argp+(r))));
+return(casse_v(w,cathev_r(argp+(r))));
 }

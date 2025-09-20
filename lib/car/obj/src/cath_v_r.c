@@ -8,5 +8,5 @@ b = (0x00);
 if(!(*argp)) return(b);
 b = catt_v(*argp);
 if(!b) return(b);
-return(cata_v(b,cath_v_r(++argp)));
+return(casse_v(b,cath_v_r(++argp)));
 }
