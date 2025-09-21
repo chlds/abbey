@@ -326,7 +326,6 @@ signed(__cdecl ords(signed char(*args),signed char(**argp)));
 signed(__cdecl neg(signed(arg)));
 signed char *(__cdecl reord_xe(signed char(*argp)));
 signed char *(__cdecl reord(signed char(*argp)));
-signed char *(__cdecl cx_r(signed(argq),signed(argt),signed char(*args),signed char(*argp)));
 signed char *(__cdecl cx(signed(argq/*digit*/),signed(argt),signed char(*args/*et*/),signed char(*argp)));
 signed char *(__cdecl catno_xxe(signed(args),signed char(*argp)));
 signed char *(__cdecl catno_xe(signed(args),signed char(*argp)));
