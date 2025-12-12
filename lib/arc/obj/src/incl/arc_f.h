@@ -1,7 +1,9 @@
 signed(__cdecl lydn(signed char(*argp)));
 signed(__cdecl hrmabsc(void));
 signed(__cdecl hrmordi(void));
+signed(__cdecl renames(signed char(*args),signed char(*argp)));
 signed(__cdecl closes(signed(arg)));
+signed(__cdecl fsyncs(signed(arg)));
 signed(__sysv opens(signed char(*args),signed(argp),...));
 void(__sysv realign(signed(arg)));
 signed(__cdecl curvert(signed(arg)));
