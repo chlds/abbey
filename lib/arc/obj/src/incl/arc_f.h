@@ -1,6 +1,7 @@
 signed(__cdecl lydn(signed char(*argp)));
 signed(__cdecl hrmabsc(void));
 signed(__cdecl hrmordi(void));
+signed(__cdecl removes(signed char(*argp)));
 signed(__cdecl renames(signed char(*args),signed char(*argp)));
 signed(__cdecl closes(signed(arg)));
 signed(__cdecl fsyncs(signed(arg)));
