@@ -9,11 +9,11 @@ In a positional numeral system, the radix
 
 signed(__cdecl ra(signed char(*args),signed(argp))) {
 auto signed r;
-auto signed i = (0x02);
-auto signed b = (0x01);
-r = ct(args);
-if(r<(i)) return(b);
-if(argp<(i)) return(i);
+auto signed b = (0x02);
+auto signed u = (0x01);
+r = coun(args);
+if(r<(b)) return(u);
+if(argp<(b)) return(b);
 if(r<(argp)) return(r);
 return(argp);
 }

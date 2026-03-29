@@ -1,0 +1,13 @@
+signed CAR_H_HT = ('\t');
+signed CAR_H_LF = ('\n');
+signed CAR_H_FF = ('\f');
+signed CAR_H_CR = ('\r');
+signed CAR_H_SP = (' ');
+signed CAR_H_EQ = ('=');
+signed char CAR_H_ALPHANUMERICALS[] = ("0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz");
+signed char CAR_H_NUMBERS[] = ("0123456789");
+signed char CAR_H_LETTERS[] = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz");
+signed char CAR_H_SYMBOLS[] = ("!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~");
+signed char CAR_H_SPACE[] = (" ");
+signed char CAR_H_BASE_LXIV[] = ("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/");
+signed char CAR_H_PADDING_IN_BASE_LXIV[] = ("=");

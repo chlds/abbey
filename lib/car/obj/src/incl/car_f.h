@@ -1,3 +1,116 @@
+/*//                                                                     *//*
+
+  |   '  /|  |)   |)    /|  (_/  ('      b,c,ci.........char, ascii and byte
+  |_    / |  |_)  |_)  / |   /   (_      w,s,si...............short and word
+                                         d,i,ii,r,m......int and double word
+ In  preparation  for the arrival of     q,ll,lli..................quad word
+ code-named Vale Royal                   o.........................octa word
+                                         il...........................utf-32
+ A monospace typeface should be here     sl...........................utf-16
+ employed  for  optimal  readability.    cl............................utf-8
+ Declarations marked with a # at the     _r..not intended for direct calling
+ end  are intended to be included in     _xe.....intended for direct calling
+ the relevant public headers.
+                                         In principle ,  but there are excep-
+                                         tions.
+
+*//*                                                                     //*/
+
+void*(__cdecl alloc(signed(arg)));
+void(__cdecl rl(void(*argp)));
+/*  wrapping  */
+signed(__cdecl dec(signed(arg)));
+signed(__cdecl inc(signed(arg)));
+/*  increment et decrement  */
+signed(__cdecl annihi(signed(*argp)));
+signed(__cdecl annihs(signed short(*argp)));
+signed(__cdecl annih(signed char(*argp)));
+/*  annihilating  */
+signed(__cdecl deburr_r(signed char(*args),signed(argp)));
+signed(__cdecl deburr(void(*args),signed(argp))); //#
+signed(__cdecl deburr_xe(void(*args),signed(argp))); //#
+/*  deburring  */
+signed(__cdecl ceali_xe(signed(*args),signed(argp)));
+signed(__cdecl ceali(signed(*argp)));
+signed(__cdecl ceals_xe(signed short(*args),signed(argp)));
+signed(__cdecl ceals(signed short(*argp)));
+signed(__cdecl ceal_xe(signed char(*args),signed(argp)));
+signed(__cdecl ceal(signed char(*argp)));
+/*  concealing  */
+signed(__cdecl counte_xe(void(__cdecl**args)(void*),signed(argp)));
+signed(__cdecl counte(void(__cdecl**argp)(void*)));
+signed(__cdecl coune(void(__cdecl**argp)(void*)));
+signed(__cdecl counii_xe(signed(**args),signed(argp)));
+signed(__cdecl counii(signed(**argp)));
+signed(__cdecl couni_xe(signed(*args),signed(argp)));
+signed(__cdecl couni(signed(*argp)));
+signed(__cdecl counsi_xe(signed short(**args),signed(argp)));
+signed(__cdecl counsi(signed short(**argp)));
+signed(__cdecl couns_xe(signed short(*args),signed(argp)));
+signed(__cdecl couns(signed short(*argp)));
+signed(__cdecl counci_xe(signed char(**args),signed(argp)));
+signed(__cdecl counci(signed char(**argp)));
+signed(__cdecl councle_xe(signed char(*args),signed(argp)));
+signed(__cdecl councle(signed char(*argp)));
+signed(__cdecl councl_xe(signed char(*args),signed(argp)));
+signed(__cdecl councl(signed char(*argp)));
+signed(__cdecl counc_xe(signed char(*args),signed(argp)));
+signed(__cdecl counc(signed char(*argp)));
+signed(__cdecl coun(signed char(*argp)));
+/*  count up  */
+signed(__cdecl cohe(signed char(*args),signed(argp)));
+signed(__cdecl coh(signed char(*argp)));
+signed char *(__cdecl coh_xe(signed char(*argp)));
+/*  coherency  */
+void(__cdecl*derefe_xe(void(__cdecl**argp)(void*)))(void*);
+signed *(__cdecl derefr_xe(signed(**argp)));
+signed(__cdecl derefr(signed(*argp)));
+signed short *(__cdecl derefs_xe(signed short(**argp)));
+signed(__cdecl derefs(signed short(*argp)));
+signed char *(__cdecl deref_xe(signed char(**argp)));
+signed(__cdecl deref(signed char(*argp)));
+signed(__cdecl carai(signed(*argp)));
+signed(__cdecl cara_d(signed(*argp)));
+signed(__cdecl caras(signed short(*argp)));
+signed(__cdecl cara_w(signed short(*argp)));
+signed(__cdecl dd(signed(arg)));
+signed(__cdecl dw(signed(arg)));
+signed(__cdecl db(signed(arg)));
+signed(__cdecl gnm(signed(arg)));
+/*  masking  */
+double(__cdecl poe_rr(signed(args),signed(argp)));
+double(__cdecl poe_r(signed(args),signed(argp)));
+double(__cdecl poe(signed(args),signed(argp))); //#
+/*  power  */
+signed char **(__cdecl catnc_xxe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnc_xe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnc(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathc_xxe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathc_xe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathc(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl adag_xe(signed char(**args),signed char(**argp)));
+signed char **(__cdecl adag(signed char(**args),signed char(**argp)));
+signed char **(__cdecl adagi(signed char(**args),signed char(**argp)));
+signed char *(__cdecl adagio(signed char(**args),signed char(**argp)));
+signed char **(__cdecl catnl_xxe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnl_xe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnl(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathl_xxe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathl_xe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathl(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl alle_xe(signed char(**args),signed char(**argp)));
+signed char **(__cdecl alle(signed char(**args),signed char(**argp)));
+signed char **(__cdecl alleg(signed char(**args),signed char(**argp)));
+signed char *(__cdecl allegro(signed char(**args),signed char(**argp)));
+/*  mapping  */
+signed char **(__cdecl rlcie_rr(signed char(**argp)));
+signed char **(__cdecl rlcie_r(signed char(**argp)));
+signed char **(__cdecl rlcie(signed char(**argp))); //#
+signed char **(__cdecl rlci_rr(signed char(**argp)));
+signed char **(__cdecl rlci_r(signed char(**argp)));
+signed char **(__cdecl rlci(signed char(**argp))); //#
+/*  release  */
+
 signed(__cdecl cylxiv_rr(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cylxiv_r(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cylxiv(signed char(*argp)));
@@ -391,16 +504,12 @@ signed(__cdecl cnt_v_xe(signed char(***argp)));
 signed(__cdecl cnt_v(signed char(**argp)));
 signed *(__cdecl rlea_u(signed(*argp)));
 signed **(__cdecl rlea_m(signed(**argp)));
-signed char **(__cdecl rlea_v(signed char(**argp)));
 signed char *(__cdecl rlea(signed char(*argp)));
-void *(__cdecl rl_xe(void(*argp)));
 signed(__cdecl rlse_m_r(signed(**argp)));
 signed(__cdecl rlse_m(signed(**argp)));
 signed(__cdecl rlse_v_r(signed char(**argp)));
 signed(__cdecl rlse_v(signed char(**argp)));
 signed(__cdecl rlse(signed char(*argp)));
-void(__cdecl rl(void(*argp)));
-void*(__cdecl alloc(signed(arg)));
 signed char **(__cdecl cath_v_r(signed char(**argp)));
 signed char **(__cdecl cath_v(signed char *argp,...));
 signed char *(__cdecl cas_xe(signed char(*argp)));
@@ -506,8 +615,6 @@ signed short **(__cdecl dec_w(signed short(**argp)));
 signed short **(__cdecl inc_w(signed short(**argp)));
 signed char **(__cdecl dec_v(signed char(**argp)));
 signed char **(__cdecl inc_v(signed char(**argp)));
-signed(__cdecl dec(signed(arg)));
-signed(__cdecl inc(signed(arg)));
 signed(__cdecl r_pow(signed(args),signed(argp)));
 signed(__cdecl bpb_rr(signed char(*argp)));
 signed(__cdecl bpb_r(void));

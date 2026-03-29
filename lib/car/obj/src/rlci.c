@@ -1,7 +1,8 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-void *(__cdecl rl_xe(void(*argp))) {
+signed char **(__cdecl rlci(signed char(**argp))) {
+if(!rlci_r(argp)) return(0x00);
 rl(argp);
 argp = (0x00);
 return(argp);
