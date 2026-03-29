@@ -62,6 +62,15 @@ signed(__cdecl cohe(signed char(*args),signed(argp)));
 signed(__cdecl coh(signed char(*argp)));
 signed char *(__cdecl coh_xe(signed char(*argp)));
 /*  coherency  */
+signed(__cdecl clzi(signed(arg)));
+signed(__cdecl clzs(signed(arg)));
+signed(__cdecl clz_r(signed(args),signed(argp)));
+signed(__cdecl clz(signed(arg)));
+signed(__cdecl cloi(signed(arg)));
+signed(__cdecl clos(signed(arg)));
+signed(__cdecl clo_r(signed(args),signed(argp)));
+signed(__cdecl clo(signed(arg)));
+/*  count leading ones and zeros  */
 void(__cdecl*derefe_xe(void(__cdecl**argp)(void*)))(void*);
 signed *(__cdecl derefr_xe(signed(**argp)));
 signed(__cdecl derefr(signed(*argp)));
