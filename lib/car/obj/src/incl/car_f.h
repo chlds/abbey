@@ -23,8 +23,11 @@ signed(__cdecl dec(signed(arg)));
 signed(__cdecl inc(signed(arg)));
 /*  increment et decrement  */
 signed(__cdecl annihi(signed(*argp)));
+signed *(__cdecl annihi_xe(signed(*argp)));
 signed(__cdecl annihs(signed short(*argp)));
+signed short *(__cdecl annihs_xe(signed short(*argp)));
 signed(__cdecl annih(signed char(*argp)));
+signed char *(__cdecl annih_xe(signed char(*argp)));
 /*  annihilating  */
 signed(__cdecl deburr_r(signed char(*args),signed(argp)));
 signed(__cdecl deburr(void(*args),signed(argp))); //#
@@ -91,6 +94,19 @@ double(__cdecl poe_rr(signed(args),signed(argp)));
 double(__cdecl poe_r(signed(args),signed(argp)));
 double(__cdecl poe(signed(args),signed(argp))); //#
 /*  power  */
+signed(__cdecl cymmi(signed(*args),signed(*argp)));
+signed *(__cdecl cymi(signed(*args),signed(*argp)));
+signed *(__cdecl cymi_xe(signed(*args),signed(*argp)));
+signed *(__cdecl cymi_xxe(signed(*args),signed(*argp)));
+signed(__cdecl cymms(signed short(*args),signed short(*argp)));
+signed short *(__cdecl cyms(signed short(*args),signed short(*argp)));
+signed short *(__cdecl cyms_xe(signed short(*args),signed short(*argp)));
+signed short *(__cdecl cyms_xxe(signed short(*args),signed short(*argp)));
+signed(__cdecl cymmc(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cymc(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cymc_xe(signed char(*args),signed char(*argp)));
+signed char *(__cdecl cymc_xxe(signed char(*args),signed char(*argp)));
+/*  copy  */
 signed char **(__cdecl catnc_xxe(signed char(**args),signed char(**argp))); //#
 signed char **(__cdecl catnc_xe(signed char(**args),signed char(**argp))); //#
 signed char **(__cdecl catnc(signed char(**args),signed char(**argp))); //#
