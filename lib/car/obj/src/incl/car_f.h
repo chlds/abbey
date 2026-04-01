@@ -132,6 +132,12 @@ signed char **(__cdecl cathoc(signed char(*argp)));
 signed char **(__cdecl cathoc_xe(signed char(*argp)));
 signed char **(__cdecl cathol_r(signed char(*args),signed char(**argp)));
 signed char **(__cdecl cathol(signed char(*argp)));
+signed *(__cdecl lithi_r(signed(args),signed(*argp)));
+signed *(__cdecl lithi(signed(arg)));
+signed *(__cdecl lithi_xe(signed(arg)));
+signed short *(__cdecl liths_r(signed(args),signed short(*argp)));
+signed short *(__cdecl liths(signed(arg)));
+signed short *(__cdecl liths_xe(signed(arg)));
 signed char *(__cdecl litho(signed(arg))); //#
 signed char *(__cdecl litho_xe(signed(arg))); //#
 /*  mapping  */
@@ -195,7 +201,6 @@ signed *(__cdecl casse_u_rr(signed(*args),signed(*argp)));
 signed *(__cdecl casse_u_r(signed(*args),signed(*argp)));
 signed *(__cdecl casse_u(signed(*args),signed(*argp)));
 signed *(__cdecl cathal_u_xe(signed(arg)));
-signed *(__cdecl cathal_u_r(signed(args),signed(*argp)));
 signed *(__cdecl cathal_u(signed(arg)));
 signed *(__cdecl cy_u(signed(*args),signed(*argp)));
 signed *(__cdecl cyne_u(signed(*args),signed(argp)));

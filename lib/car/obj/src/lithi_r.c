@@ -1,12 +1,12 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed *(__cdecl cathal_u_r(signed(args),signed(*argp))) {
+signed *(__cdecl lithi_r(signed(args),signed(*argp))) {
 auto signed *b;
+if(!argp) return(argp);
 b = (argp);
-if(!b) return(b);
-*b = (args);
-b++;
+*b = dd(args);
+if(args) b++;
 *b = (0x00);
 b = (0x00);
 return(argp);

@@ -11,7 +11,7 @@ signed(__cdecl ra(signed char(*args),signed(argp))) {
 auto signed r;
 auto signed b = (0x02);
 auto signed u = (0x01);
-r = coun(args);
+r = counc(args);
 if(r<(b)) return(u);
 if(argp<(b)) return(b);
 if(r<(argp)) return(r);
