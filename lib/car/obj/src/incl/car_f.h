@@ -127,6 +127,13 @@ signed char **(__cdecl alle_xe(signed char(**args),signed char(**argp)));
 signed char **(__cdecl alle(signed char(**args),signed char(**argp)));
 signed char **(__cdecl alleg(signed char(**args),signed char(**argp)));
 signed char *(__cdecl allegro(signed char(**args),signed char(**argp)));
+signed char **(__cdecl cathoc_r(signed char(*args),signed char(**argp)));
+signed char **(__cdecl cathoc(signed char(*argp)));
+signed char **(__cdecl cathoc_xe(signed char(*argp)));
+signed char **(__cdecl cathol_r(signed char(*args),signed char(**argp)));
+signed char **(__cdecl cathol(signed char(*argp)));
+signed char *(__cdecl litho(signed(arg))); //#
+signed char *(__cdecl litho_xe(signed(arg))); //#
 /*  mapping  */
 signed char **(__cdecl rlcie_rr(signed char(**argp)));
 signed char **(__cdecl rlcie_r(signed char(**argp)));
