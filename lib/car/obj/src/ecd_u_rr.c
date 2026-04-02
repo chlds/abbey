@@ -5,7 +5,7 @@ signed(__cdecl ecd_u_rr(signed char(*argp))) {
 auto signed b;
 auto signed r;
 auto signed x = (0x06);
-r = ct(argp);
+r = counc(argp);
 if(!r) return(r);
 b = cara(argp);
 AND(b,mas_xe(x));

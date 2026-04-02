@@ -15,6 +15,6 @@ if(!b) return(b);
 r = lt_xe(b);
 if(!r) return(b);
 r = (0x01+(~r));
-bury(b+(r+(ct(b))));
+bury(b+(r+(counc(b))));
 return(cathy_xe(b));
 }

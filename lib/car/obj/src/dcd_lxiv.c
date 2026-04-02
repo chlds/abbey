@@ -13,7 +13,7 @@ auto signed r;
 auto signed q = (0x04);
 auto signed t = (0x03);
 b = (0x00);
-r = ct(argp);
+r = counc(argp);
 if(!r) return(b);
 if(r%(q)) return(b);
 r = sze_orig_ante_lxiv(argp);

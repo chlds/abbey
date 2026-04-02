@@ -17,5 +17,5 @@ if(!b) return(b);
 if(!(*b)) return(b);
 if(none(anylxiv(b))) d++;
 c = (*d);
-return(c(b,catlxiv(argp+(ct(b)))));
+return(c(b,catlxiv(argp+(counc(b)))));
 }

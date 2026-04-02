@@ -17,5 +17,5 @@ if(!b) return(b);
 if(!(*b)) return(b);
 if(none(anyalphnum(b))) d++;
 c = (*d);
-return(c(b,catalphnum(argp+(ct(b)))));
+return(c(b,catalphnum(argp+(counc(b)))));
 }

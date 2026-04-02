@@ -19,8 +19,6 @@ AND(r,0x00);
 if(!(0x00<(args))) r = (t+(0x01+(~(args+(t)))));
 c = (*(d+(r%(t))));
 b = c(argp);
-if(EQ(q,ct(b))) return(b);
-rlse(b);
-b = (0x00);
-return(b);
+if(EQ(q,counc(b))) return(b);
+return(annih_xe(b));
 }

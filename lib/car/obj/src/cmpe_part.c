@@ -8,6 +8,6 @@ if(!argp) return(r);
 if(!args) return(r);
 r = cara(args);
 if(!r) return(r);
-if(r^(cara(argp))) return(r+(0x01+(~(cara(argp)))));
+if(r^(cara(argp))) return(r+(0x01+(~cara(argp))));
 return(cmpe_part(++args,++argp));
 }

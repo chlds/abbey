@@ -17,5 +17,5 @@ if(!b) return(b);
 if(!(*b)) return(b);
 if(none(anynonesp(b))) d++;
 c = (*d);
-return(c(b,catnonesp(argp+(ct(b)))));
+return(c(b,catnonesp(argp+(counc(b)))));
 }

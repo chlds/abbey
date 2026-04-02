@@ -13,5 +13,5 @@ if(!argp) return(argp);
 b = cas(argp);
 if(!b) return(b);
 if(!(*b)) return(b);
-return(catne(b,reord(argp+(ct(b)))));
+return(catne(b,reord(argp+(counc(b)))));
 }

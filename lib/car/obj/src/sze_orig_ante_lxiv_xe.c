@@ -8,7 +8,7 @@ auto signed t = (0x03);
 r = ct_lxiv(argp);
 if(!r) return(r);
 if(r%(q)) return(0x00);
-argp = (argp+(ct(argp)));
+argp = (argp+(counc(argp)));
 --argp;
 --argp;
 r = (t*(r/(q)));

@@ -7,7 +7,7 @@ AND(r,0x00);
 if(!argp) return(r);
 if(!args) return(r);
 r = cara(args);
-if(r^(cara(argp))) return(r+(0x01+(~(cara(argp)))));
+if(r^(cara(argp))) return(r+(0x01+(~cara(argp))));
 if(!r) return(r);
 return(cmpe(++args,++argp));
 }

@@ -3,7 +3,7 @@
 
 signed(__cdecl coh(signed char(*argp))) {
 auto signed r;
-r = caracte(caract(cara(argp)));
+r = lt(argp);
 if(cohe(argp,r)) return(0x00);
 return(r);
 }
