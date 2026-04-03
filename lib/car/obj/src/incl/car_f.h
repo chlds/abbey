@@ -89,6 +89,7 @@ signed(__cdecl dd(signed(arg)));
 signed(__cdecl dw(signed(arg)));
 signed(__cdecl db(signed(arg)));
 signed(__cdecl gnm(signed(arg)));
+signed(__cdecl gnb(signed(arg)));
 /*  masking  */
 double(__cdecl poe_rr(signed(args),signed(argp)));
 double(__cdecl poe_r(signed(args),signed(argp)));
