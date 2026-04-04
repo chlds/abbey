@@ -7,6 +7,6 @@ auto unsigned r;
 AND(r,0x00);
 NOT(r);
 if(!(0x00<(arg))) return(0x00);
-if(!(arg<(CHAR_BIT*(sizeof(arg))))) return(~0x00);
+if(!(arg<(CHAR_BIT*(sizeof(r))))) return(~0x00);
 return(~(r<<(arg)));
 }

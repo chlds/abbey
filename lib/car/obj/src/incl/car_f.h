@@ -22,6 +22,9 @@ void(__cdecl rl(void(*argp)));
 signed(__cdecl dec(signed(arg)));
 signed(__cdecl inc(signed(arg)));
 /*  increment et decrement  */
+signed(__cdecl shl(signed(args),signed(argp)));
+signed(__cdecl shr(signed(args),signed(argp)));
+/*  shift  */
 signed(__cdecl annihi(signed(*argp)));
 signed *(__cdecl annihi_xe(signed(*argp)));
 signed(__cdecl annihs(signed short(*argp)));

@@ -11,6 +11,8 @@
 # define ORL(A,B) A = orl(A,B)
 # define ORH(A,B) A = orh(A,B)
 # define TOGG(A) A = togg(A)
+# define SHL(A,B) A = shl(B,A)
+# define SHR(A,B) A = shr(B,A)
 
 extern signed CAR_H_HT;
 extern signed CAR_H_LF;

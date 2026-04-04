@@ -8,8 +8,6 @@ Refer at ./config.h
 */
 
 
-# define SHL(A,B) A = (A<<(B))
-# define SHR(A,B) A = (A>>(B))
 # define DEC(A) --(A)
 # define INC(A) (A)++
 # define LD(A,B) A = (B)
