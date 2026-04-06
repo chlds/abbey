@@ -20,5 +20,5 @@ if(!(0x00<(args))) r = (t+(0x01+(~(args+(t)))));
 c = (*(d+(r%(t))));
 b = c(argp);
 if(EQ(q,counc(b))) return(b);
-return(annih_xe(b));
+return(annih(b));
 }

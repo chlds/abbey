@@ -3,7 +3,6 @@
 
 signed char **(__cdecl rlci_rr(signed char(**argp))) {
 if(!deref_xe(argp)) return(argp);
-annih(*argp);
-*argp = (0x00);
+*argp = annih(*argp);
 return(rlci_rr(++argp));
 }

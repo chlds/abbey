@@ -25,13 +25,13 @@ signed(__cdecl inc(signed(arg)));
 signed(__cdecl shl(signed(args),signed(argp)));
 signed(__cdecl shr(signed(args),signed(argp)));
 /*  shift  */
-signed(__cdecl annihi(signed(*argp)));
-signed *(__cdecl annihi_xe(signed(*argp)));
-signed(__cdecl annihs(signed short(*argp)));
-signed short *(__cdecl annihs_xe(signed short(*argp)));
-signed(__cdecl annih(signed char(*argp)));
-signed char *(__cdecl annih_xe(signed char(*argp)));
-signed char *(__cdecl annih_xxe(alley_t(args),signed char(*argp)));
+signed *(__cdecl annihi(signed(*argp)));
+signed short *(__cdecl annihs(signed short(*argp)));
+signed char *(__cdecl annih_xe(alley_t(args),signed char(*argp)));
+signed char *(__cdecl annih(signed char(*argp)));
+signed(__cdecl nihi(signed(*argp)));
+signed(__cdecl nihs(signed short(*argp)));
+signed(__cdecl nih(signed char(*argp)));
 /*  annihilating  */
 signed(__cdecl deburr_r(signed char(*args),signed(argp)));
 signed(__cdecl deburr(void(*args),signed(argp))); //#

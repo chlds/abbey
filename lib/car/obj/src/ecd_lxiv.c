@@ -13,5 +13,5 @@ b = (0x00);
 if(!(0x00<(argp))) return(b);
 b = ecd_xxiv_lxiv(argp,args);
 if(EQ(argp,sze_orig_ante_lxiv(b))) return(b);
-return(annih_xe(b));
+return(annih(b));
 }

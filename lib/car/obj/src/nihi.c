@@ -1,9 +1,10 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed *(__cdecl annihi(signed(*argp))) {
+signed(__cdecl nihi(signed(*argp))) {
 auto signed r;
-r = nihi(argp);
+r = ceali(argp);
+rl(argp);
 argp = (0x00);
-return(argp);
+return(r);
 }

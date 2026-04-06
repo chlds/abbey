@@ -4,6 +4,6 @@
 signed(__cdecl cara_xe(signed char(*argp))) {
 auto signed r;
 r = cara(argp);
-argp = annih_xe(argp);
+argp = annih(argp);
 return(r);
 }

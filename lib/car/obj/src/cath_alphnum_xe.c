@@ -2,5 +2,5 @@
 # include "./../../../incl/config.h"
 
 signed char *(__cdecl cath_alphnum_xe(signed char(*argp))) {
-return(annih_xxe(cath_alphnum,argp));
+return(annih_xe(cath_alphnum,argp));
 }

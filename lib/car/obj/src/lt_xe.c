@@ -6,6 +6,6 @@ auto signed char *b;
 auto signed r;
 b = reord(argp);
 r = lt(b);
-b = annih_xe(b);
+b = annih(b);
 return(r);
 }

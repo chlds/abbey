@@ -2,5 +2,5 @@
 # include "./../../../incl/config.h"
 
 signed char *(__cdecl dele_xe(signed char(*argp))) {
-return(annih_xxe(dele,argp));
+return(annih_xe(dele,argp));
 }

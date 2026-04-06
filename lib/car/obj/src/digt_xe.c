@@ -4,7 +4,6 @@
 signed char *(__cdecl digt_xe(signed(args),signed char(*argp))) {
 auto signed char *b;
 b = digt(args,argp);
-annih(argp);
-argp = (0x00);
+argp = annih(argp);
 return(b);
 }

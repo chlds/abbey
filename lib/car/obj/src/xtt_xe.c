@@ -16,6 +16,6 @@ b = (0x00);
 if(argp) {
 if(EQ(argt,atpt(d,argt))) b = argp(d,args);
 }
-if(!(0x01+(closes(d)))) b = annih_xe(b);
+if(!(0x01+(closes(d)))) b = annih(b);
 return(b);
 }
