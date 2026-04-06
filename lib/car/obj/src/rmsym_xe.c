@@ -2,9 +2,5 @@
 # include "./../../../incl/config.h"
 
 signed char *(__cdecl rmsym_xe(signed char(*argp))) {
-auto signed char *b;
-b = rmsym(argp);
-rlse(argp);
-argp = (0x00);
-return(b);
+return(annih_xxe(rmsym,argp));
 }

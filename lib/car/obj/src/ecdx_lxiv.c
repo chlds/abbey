@@ -14,7 +14,5 @@ b = (0x00);
 if(!(0x00<(argp))) return(b);
 b = cath_ilv_xe(t,ecd_xxiv_lxiv(argp,args));
 if(EQ(argp,sze_orig_ante_lxiv_xe(b))) return(b);
-rlse(b);
-b = (0x00);
-return(b);
+return(annih_xe(b));
 }

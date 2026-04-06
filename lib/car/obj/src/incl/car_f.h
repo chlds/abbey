@@ -31,6 +31,7 @@ signed(__cdecl annihs(signed short(*argp)));
 signed short *(__cdecl annihs_xe(signed short(*argp)));
 signed(__cdecl annih(signed char(*argp)));
 signed char *(__cdecl annih_xe(signed char(*argp)));
+signed char *(__cdecl annih_xxe(alley_t(args),signed char(*argp)));
 /*  annihilating  */
 signed(__cdecl deburr_r(signed char(*args),signed(argp)));
 signed(__cdecl deburr(void(*args),signed(argp))); //#

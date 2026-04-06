@@ -14,9 +14,6 @@ d = opens(argt,r,xt_pm(argq));
 if(!(0x01+(d))) return(0x00);
 b = (0x00);
 if(argp) b = argp(d,args);
-if(!(0x01+(closes(d)))) {
-rlse(b);
-b = (0x00);
-}
+if(!(0x01+(closes(d)))) b = annih_xe(b);
 return(b);
 }

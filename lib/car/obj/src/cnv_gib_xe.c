@@ -13,8 +13,7 @@ if(!(*argp)) return(r);
 b = reord(a);
 if(!b) return(r);
 r = cmpe_part(b,argp);
-rlse(b);
-b = (0x00);
+b = annih_xe(b);
 if(r) return(0x00);
 return(r_pow(k,e));
 }
