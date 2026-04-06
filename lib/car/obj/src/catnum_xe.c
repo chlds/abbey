@@ -4,7 +4,6 @@
 signed char *(__cdecl catnum_xe(signed char(*argp))) {
 auto signed char *b;
 b = catnum(argp);
-rlse(argp);
-argp = (0x00);
+argp = annih(argp);
 return(b);
 }

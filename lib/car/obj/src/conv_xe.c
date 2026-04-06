@@ -10,7 +10,6 @@ Convert into a double word
 signed(__cdecl conv_xe(signed(args),signed char(*argp))) {
 auto signed r;
 r = cnv_xe(args,argp);
-rlse(argp);
-argp = (0x00);
+argp = annih(argp);
 return(r);
 }

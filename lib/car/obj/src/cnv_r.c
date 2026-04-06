@@ -8,7 +8,6 @@ AND(r,0x00);
 b = reord(argp);
 if(!b) return(r);
 r = cnv_rr(args,b);
-rlse(b);
-b = (0x00);
+b = annih(b);
 return(r);
 }
