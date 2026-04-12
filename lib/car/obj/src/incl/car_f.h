@@ -112,16 +112,16 @@ signed char *(__cdecl cymc(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cymc_xe(signed char(*args),signed char(*argp)));
 signed char *(__cdecl cymc_xxe(signed char(*args),signed char(*argp)));
 /*  copy  */
-signed char **(__cdecl catnc_xxe(signed char(**args),signed char(**argp))); //#
-signed char **(__cdecl catnc_xe(signed char(**args),signed char(**argp))); //#
-signed char **(__cdecl catnc(signed char(**args),signed char(**argp))); //#
-signed char **(__cdecl cathc_xxe(signed char(**args),signed char(**argp))); //#
-signed char **(__cdecl cathc_xe(signed char(**args),signed char(**argp))); //#
-signed char **(__cdecl cathc(signed char(**args),signed char(**argp))); //#
-signed char **(__cdecl adag_xe(signed char(**args),signed char(**argp)));
-signed char **(__cdecl adag(signed char(**args),signed char(**argp)));
-signed char **(__cdecl adagi(signed char(**args),signed char(**argp)));
 signed char *(__cdecl adagio(signed char(**args),signed char(**argp)));
+signed char **(__cdecl adagi(signed char(**args),signed char(**argp)));
+signed char **(__cdecl adag(signed char(**args),signed char(**argp)));
+signed char **(__cdecl adag_xe(signed char(**args),signed char(**argp)));
+signed char **(__cdecl cathc(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathc_xe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl cathc_xxe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnc(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnc_xe(signed char(**args),signed char(**argp))); //#
+signed char **(__cdecl catnc_xxe(signed char(**args),signed char(**argp))); //#
 signed char **(__cdecl catnl_xxe(signed char(**args),signed char(**argp))); //#
 signed char **(__cdecl catnl_xe(signed char(**args),signed char(**argp))); //#
 signed char **(__cdecl catnl(signed char(**args),signed char(**argp))); //#
@@ -132,11 +132,24 @@ signed char **(__cdecl alle_xe(signed char(**args),signed char(**argp)));
 signed char **(__cdecl alle(signed char(**args),signed char(**argp)));
 signed char **(__cdecl alleg(signed char(**args),signed char(**argp)));
 signed char *(__cdecl allegro(signed char(**args),signed char(**argp)));
-signed char **(__cdecl cathoc_r(signed char(*args),signed char(**argp)));
-signed char **(__cdecl cathoc(signed char(*argp)));
-signed char **(__cdecl cathoc_xe(signed char(*argp)));
-signed char **(__cdecl cathol_r(signed char(*args),signed char(**argp)));
-signed char **(__cdecl cathol(signed char(*argp)));
+signed char *(__cdecl largo(signed char(*args),signed char(**argp)));
+signed char **(__cdecl larg(signed char(*args),signed char(**argp)));
+signed char **(__cdecl lar(signed char(*args),signed char(**argp)));
+signed char **(__cdecl lar_xe(signed char(*args),signed char(**argp)));
+signed char **(__cdecl cathoc(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl cathoc_xe(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl cathoc_xxe(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl catnoc(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl catnoc_xe(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl catnoc_xxe(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl catnol_xe(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl catnol(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl cathol_xe(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl cathol(signed char(*args),signed char(**argp))); //#
+signed char **(__cdecl anda_xe(signed char(*args),signed char(**argp)));
+signed char **(__cdecl anda(signed char(*args),signed char(**argp)));
+signed char **(__cdecl andant(signed char(*args),signed char(**argp)));
+signed char *(__cdecl andante(signed char(*args),signed char(**argp)));
 signed *(__cdecl lithi_r(signed(args),signed(*argp)));
 signed *(__cdecl lithi(signed(arg)));
 signed *(__cdecl lithi_xe(signed(arg)));

@@ -7,9 +7,9 @@ Copy shallowly
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char **(__cdecl cathol(signed char(*args),signed char(**argp))) {
+signed char **(__cdecl catnol(signed char(*args),signed char(**argp))) {
 auto signed r;
 r = counci(argp);
 if(args) r++;
-return(alle_xe(argp,anda(args,alloc(++r*(sizeof(*argp))))));
+return(anda_xe(args,alle(argp,alloc(++r*(sizeof(*argp))))));
 }

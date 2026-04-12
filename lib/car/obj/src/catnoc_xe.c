@@ -1,9 +1,9 @@
 # define CAR_H
 # include "./../../../incl/config.h"
 
-signed char **(__cdecl cathoc_xe(signed char(*args),signed char(**argp))) {
+signed char **(__cdecl catnoc_xe(signed char(*args),signed char(**argp))) {
 auto signed char **b;
-b = cathoc(args,argp);
+b = catnoc(args,argp);
 argp = rlci(argp);
 return(b);
 }
