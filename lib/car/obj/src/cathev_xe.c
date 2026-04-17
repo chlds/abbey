@@ -4,7 +4,6 @@
 signed char **(__cdecl cathev_xe(signed char(*argp))) {
 auto signed char **b;
 b = cathev(argp);
-rlse(argp);
-argp = (0x00);
+argp = annih(argp);
 return(b);
 }

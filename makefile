@@ -1,7 +1,13 @@
 # Making libabbey.a
 
 L = abbey
-LBY = lib$(L).a
+LBY_A = lib$(L).a
+DESTDIR =
+DIR_DEST = /usr/local
+DIR_LIB = $(DESTDIR)$(DIR_DEST)/lib
+DIR_INC = $(DESTDIR)$(DIR_DEST)/include/$(L)
+INC_DIR = ./incl/
+HDRS = $(wildcard $(INC_DIR)*.h)
 LBY_DIR = ./lib/
 ARC_LBY_DIR = $(LBY_DIR)arc/
 ARC_OBJ_DIR = $(ARC_LBY_DIR)obj/
@@ -30,16 +36,17 @@ CAT_ASMS = $(CAT_SRCS:$(CAT_SRC_DIR)%.c=$(CAT_ASM_DIR)%.s)
 CAT_HDRS = $(wildcard $(CAT_HDR_DIR)*.h)
 CAT_SRCS = $(wildcard $(CAT_SRC_DIR)*.c)
 CAT_OBJS = $(CAT_SRCS:$(CAT_SRC_DIR)%.c=$(CAT_OBJ_DIR)%.o)
-TARGET = $(LBY_DIR)$(LBY)
+TARGET = $(LBY_DIR)$(LBY_A)
+TARGET_H = $(HDRS)
 AS = gcc
 SFLAGS = -masm=intel
 CC = gcc
 CFLAGS = -fPIC -Ofast
 LB = ar
 LFLAGS = rcs
-MSG = "< Building static library $(LBY) "
-MSG_X = "< Installing static library $(LBY) to $(X_DIR) "
-X_DIR = /usr/local/lib/
+MSG = "< Building static library $(LBY_A) "
+MSG_I = "< Installing... "
+MSG_U = "< Uninstalling... "
 
 all: $(TARGET)
 $(TARGET): $(ARC_OBJS) $(CAR_OBJS) $(CAT_OBJS) ./makefile
@@ -87,9 +94,27 @@ clean_lib:
 
 clean_all: clean_lib clean_obj clean_asm
 
-install: $(TARGET)
-	@echo $(MSG_X)
-	# sudo cp $(TARGET) $(X_DIR)
-	# sudo ranlib $(X_DIR)$(LBY)
+install: all
+	@echo ""
+	@echo $(MSG_I)
+	@echo ""
+	@echo "This install requires root; Please run with sudo: sudo make install "
+	@echo ""
+	$(info HDRS=$(HDRS))
+	install -d -m 755 $(DIR_LIB) # mkdir -p
+	install -d -m 755 $(DIR_INC) # mkdir -p
+	install -m 644 $(TARGET_H) $(DIR_INC)/ # cp
+	install -m 644 $(TARGET) $(DIR_LIB)/ # cp
+	# ranlib $(DIR_LIB)/$(LBY_A)
 
-.PHONY: install clean_all clean_lib clean_obj clean_asm asm all
+uninstall:
+	@echo ""
+	@echo $(MSG_U)
+	@echo ""
+	@echo "This uninstall requires root; Please run with sudo: sudo make uninstall "
+	@echo ""
+	rm -f $(DIR_LIB)/$(LBY_A)
+	rm -f $(addprefix $(DIR_INC)/,$(notdir $(HDRS)))
+	# rm -rf $(DIR_INC)/
+
+.PHONY: uninstall install clean_all clean_lib clean_obj clean_asm asm all
