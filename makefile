@@ -2,10 +2,12 @@
 
 L = abbey
 LBY_A = lib$(L).a
-DESTDIR =
-DIR_DEST = /usr/local
-DIR_LIB = $(DESTDIR)$(DIR_DEST)/lib
-DIR_INC = $(DESTDIR)$(DIR_DEST)/include/$(L)
+DESTDIR ?=
+PREFIX ?= /usr/local
+DIR_INC = $(DESTDIR)$(PREFIX)/include/$(L)
+DIR_LIB = $(DESTDIR)$(PREFIX)/lib
+LIBDIR ?= $(DIR_LIB)
+INCLUDEDIR ?= $(DIR_INC)
 INC_DIR = ./incl/
 HDRS = $(wildcard $(INC_DIR)*.h)
 LBY_DIR = ./lib/
@@ -45,11 +47,11 @@ CFLAGS = -fPIC -Ofast
 LB = ar
 LFLAGS = rcs
 MSG = "< Building static library $(LBY_A) "
-MSG_I = "< Installing... "
-MSG_U = "< Uninstalling... "
+MSG_I = "Root privileges may be required to install the library."
+MSG_U = "Root privileges may be required to uninstall the library."
 
 all: $(TARGET)
-$(TARGET): $(ARC_OBJS) $(CAR_OBJS) $(CAT_OBJS) ./makefile
+$(TARGET): $(ARC_OBJS) $(CAR_OBJS) $(CAT_OBJS) # ./makefile
 	@echo $(MSG)
 	$(LB) $(LFLAGS) -o $@ $^
 
@@ -98,23 +100,19 @@ install: all
 	@echo ""
 	@echo $(MSG_I)
 	@echo ""
-	@echo "This install requires root; Please run with sudo: sudo make install "
-	@echo ""
 	$(info HDRS=$(HDRS))
-	install -d -m 755 $(DIR_LIB) # mkdir -p
-	install -d -m 755 $(DIR_INC) # mkdir -p
-	install -m 644 $(TARGET_H) $(DIR_INC)/ # cp
-	install -m 644 $(TARGET) $(DIR_LIB)/ # cp
-	# ranlib $(DIR_LIB)/$(LBY_A)
+	install -d -m 755 $(LIBDIR) # mkdir -p
+	install -d -m 755 $(INCLUDEDIR) # mkdir -p
+	install -m 644 $(TARGET_H) $(INCLUDEDIR)/ # cp
+	install -m 644 $(TARGET) $(LIBDIR)/ # cp
+	# ranlib $(LIBDIR)/$(LBY_A)
 
 uninstall:
 	@echo ""
 	@echo $(MSG_U)
 	@echo ""
-	@echo "This uninstall requires root; Please run with sudo: sudo make uninstall "
-	@echo ""
-	rm -f $(DIR_LIB)/$(LBY_A)
-	rm -f $(addprefix $(DIR_INC)/,$(notdir $(HDRS)))
-	# rm -rf $(DIR_INC)/
+	rm -f $(LIBDIR)/$(LBY_A)
+	rm -f $(addprefix $(INCLUDEDIR)/,$(notdir $(HDRS)))
+	# rm -rf $(INCLUDEDIR)/
 
 .PHONY: uninstall install clean_all clean_lib clean_obj clean_asm asm all
