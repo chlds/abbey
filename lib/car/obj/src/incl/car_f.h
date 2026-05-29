@@ -19,6 +19,13 @@
 void*(__cdecl alloc(signed(arg)));
 void(__cdecl rl(void(*argp)));
 /*  wrapping  */
+signed(__cdecl cii(signed(arg)));
+/*//                                                                     *//*
+ CII (NEG) computes the two's complement of the operand by bitwise inversion
+ followed  by  increment .   If the operand equals the minimum representable
+ value, the result remains unchanged. In standard C, signed integer overflow
+ is undefined behavior and no signal is raised.
+*//*                                                                     //*/
 signed(__cdecl dec(signed(arg)));
 signed(__cdecl inc(signed(arg)));
 /*  increment et decrement  */
@@ -99,6 +106,9 @@ double(__cdecl poe_rr(signed(args),signed(argp)));
 double(__cdecl poe_r(signed(args),signed(argp)));
 double(__cdecl poe(signed(args),signed(argp))); //#
 /*  power  */
+signed char ***(__cdecl lash(signed char(*args),signed char(***argp)));
+signed char ***(__cdecl hitch(signed char(*args),signed char(***argp)));
+/*  shorthands  */
 signed(__cdecl cymmi(signed(*args),signed(*argp)));
 signed *(__cdecl cymi(signed(*args),signed(*argp)));
 signed *(__cdecl cymi_xe(signed(*args),signed(*argp)));
