@@ -86,10 +86,13 @@ signed(__cdecl clo_r(signed(args),signed(argp)));
 signed(__cdecl clo(signed(arg)));
 /*  count leading ones and zeros  */
 void(__cdecl*derefe_xe(void(__cdecl**argp)(void*)))(void*);
+signed **(__cdecl derefr_xxe(signed(***argp)));
 signed *(__cdecl derefr_xe(signed(**argp)));
 signed(__cdecl derefr(signed(*argp)));
+signed short **(__cdecl derefs_xxe(signed short(***argp)));
 signed short *(__cdecl derefs_xe(signed short(**argp)));
 signed(__cdecl derefs(signed short(*argp)));
+signed char **(__cdecl deref_xxe(signed char(***argp)));
 signed char *(__cdecl deref_xe(signed char(**argp)));
 signed(__cdecl deref(signed char(*argp)));
 signed(__cdecl carai(signed(*argp)));
