@@ -13,8 +13,7 @@ catne,
 if(!argp) return(argp);
 d = (e);
 b = cas(argp);
-if(!b) return(b);
-if(!(*b)) return(b);
+if(!deref(b)) return(b);
 if(none(anynonesp(b))) d++;
 c = (*d);
 return(c(b,catnonesp(argp+(counc(b)))));

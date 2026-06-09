@@ -13,8 +13,7 @@ catne,
 if(!argp) return(argp);
 d = (e);
 b = cas(argp);
-if(!b) return(b);
-if(!(*b)) return(b);
+if(!deref(b)) return(b);
 if(none(anylxiv(b))) d++;
 c = (*d);
 return(c(b,catlxiv(argp+(counc(b)))));

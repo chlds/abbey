@@ -33,8 +33,7 @@ auto signed char *(a[]) = {
 "tmpfile",
 0x00,
 };
-if(!argp) return(0x00);
-if(!(*argp)) return(0x00);
+if(!deref(argp)) return(0x00);
 r = cnt_v(a);
 if(!r) return(r);
 return(ordy_xe(argp,a,cath_m(r,\

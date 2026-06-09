@@ -13,8 +13,7 @@ catne,
 if(!argp) return(argp);
 d = (e);
 b = cas(argp);
-if(!b) return(b);
-if(!(*b)) return(b);
+if(!deref(b)) return(b);
 if(none(anyalphnum(b))) d++;
 c = (*d);
 return(c(b,catalphnum(argp+(counc(b)))));
