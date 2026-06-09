@@ -1,5 +1,8 @@
 # Making libabbey.a
 
+V ?= (0x00) # Verbose
+Q ?= $(if $(filter 1,$(V)),,@) # Quiet
+DEBUG ?= (0x00)
 L = abbey
 LBY_A = lib$(L).a
 DESTDIR ?=
@@ -49,6 +52,10 @@ LFLAGS = rcs
 MSG = "< Building static library $(LBY_A) "
 MSG_I = "Root privileges may be required to install the library."
 MSG_U = "Root privileges may be required to uninstall the library."
+
+# dbg = $(if $(filter $(DEBUG)),$(info $(1)))
+dbg = $(if $(filter 1,$(V)),$(info [DBG] $(1)))
+$(call dbg,HDRS=$(HDRS))
 
 all: $(TARGET)
 $(TARGET): $(ARC_OBJS) $(CAR_OBJS) $(CAT_OBJS) # ./makefile
@@ -100,19 +107,18 @@ install: all
 	@echo ""
 	@echo $(MSG_I)
 	@echo ""
-	$(info HDRS=$(HDRS))
-	install -d -m 755 $(LIBDIR) # mkdir -p
-	install -d -m 755 $(INCLUDEDIR) # mkdir -p
-	install -m 644 $(TARGET_H) $(INCLUDEDIR)/ # cp
-	install -m 644 $(TARGET) $(LIBDIR)/ # cp
-	# ranlib $(LIBDIR)/$(LBY_A)
+	$(Q)install -d -m 755 $(LIBDIR) # mkdir -p
+	$(Q)install -d -m 755 $(INCLUDEDIR) # mkdir -p
+	$(Q)install -m 644 $(TARGET_H) $(INCLUDEDIR)/ # cp
+	$(Q)install -m 644 $(TARGET) $(LIBDIR)/ # cp
+#	$(Q)ranlib $(LIBDIR)/$(LBY_A)
 
 uninstall:
 	@echo ""
 	@echo $(MSG_U)
 	@echo ""
-	rm -f $(LIBDIR)/$(LBY_A)
-	rm -f $(addprefix $(INCLUDEDIR)/,$(notdir $(HDRS)))
-	# rm -rf $(INCLUDEDIR)/
+	$(Q)rm -f $(LIBDIR)/$(LBY_A)
+	$(Q)rm -f $(addprefix $(INCLUDEDIR)/,$(notdir $(HDRS)))
+#	$(Q)rm -rf $(INCLUDEDIR)/
 
 .PHONY: uninstall install clean_all clean_lib clean_obj clean_asm asm all
