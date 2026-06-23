@@ -19,6 +19,7 @@
 void*(__cdecl alloc(signed(arg)));
 void(__cdecl rl(void(*argp)));
 /*  wrapping  */
+signed long long(__cdecl cii_xe(signed long long(arg)));
 signed(__cdecl cii(signed(arg)));
 /*//                                                                     *//*
  CII (NEG) computes the two's complement of the operand by bitwise inversion
