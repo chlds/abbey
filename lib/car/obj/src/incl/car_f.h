@@ -110,6 +110,16 @@ double(__cdecl poe_rr(signed(args),signed(argp)));
 double(__cdecl poe_r(signed(args),signed(argp)));
 double(__cdecl poe(signed(args),signed(argp))); //#
 /*  power  */
+signed char *(__cdecl convey_xe(signed(argt),signed char(*args),signed char(*argp)));
+signed char *(__cdecl convey(signed char(*args),signed(argp)));
+signed char *(__cdecl cnvy(signed char(*args),signed char(*argp)));
+signed(__cdecl cvy(signed char(*args),signed char(*argp)));
+/*  convey  */
+signed char *(__cdecl ante(signed char(*argp)));
+signed char *(__cdecl post(signed char(*argp)));
+/*  anterior and posterior  */
+signed char *(__cdecl nil(signed char(*argp)));
+/*  nihil  */
 signed char ***(__cdecl lash(signed char(*args),signed char(***argp)));
 signed char ***(__cdecl hitch(signed char(*args),signed char(***argp)));
 /*  shorthands  */

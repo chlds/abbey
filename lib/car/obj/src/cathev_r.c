@@ -8,6 +8,9 @@ auto signed r;
 w = (0x00);
 r = cuev_xe(argp);
 if(!r) return(w);
+/* deprecated
 b = cyne(argp,r);
+//*/
+b = convey(argp,r);
 return(cathol_xe(b,cathev_r(argp+(r))));
 }
