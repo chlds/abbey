@@ -1,6 +1,6 @@
 # define CAR_H
 # define CMM(A,B) (B,A)
-# include "./../../../config.h"
+# include "./../../../incl/config.h"
 
 signed char *(__cdecl nil(signed char(*argp))) {
 /* fair enough
